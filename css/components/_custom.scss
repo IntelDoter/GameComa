@@ -1,14 +1,70 @@
+
+/* Variables */
+
 $size: 300px;
 
+/* Header */
+
+.header_fixed {
+  width: 100%;
+  height: 40%;
+  position: fixed;
+  @extend .red;
+  @extend .lighten-2;
+}
+
+.head_logo {
+  margin: 30px auto 30px auto;
+}
+
+.logo, .title {
+  position: relative;
+}
+
+.logo img, .title img {
+  width: 100%;
+  height: auto;
+}
+
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+ /* News container */
+.news_container {
+  position: relative;
+  background: #fff;
+}
+
+.news_project, .news_games {
+  height: 40px;
+  line-height: 40px;
+  @extend .center;
+  @extend .white-text;
+  cursor: pointer;
+}
+
+.news_project .card-title {
+  @extend .grey-text;
+}
+
+/* Server cards */
+
 .server_card {
-  width: $size;
-  height: $size;
+  min-width: $size;
+  min-height: $size;
   position: relative;
   padding: 5px 20px;
-  background: #f0f0f0;
-  margin: 30px;
+  background: #fff;
   float: left;
   text-align: center;
+  @extend .hoverable;
+}
+
+.card_wrapper {
+  padding: 15px;
 }
 
 .server_status {
@@ -38,6 +94,10 @@ $size: 300px;
   margin: 10px 0 2px 0;
 }
 
+.map .material-icons, .vote .material-icons {
+  @extend .tiny;
+}
+
 .map {
   float: left;
 }
@@ -48,5 +108,11 @@ $size: 300px;
 
 .bottom_btns {
   font-size: 20px;
-  margin-top: 10px;
+  margin-top: 30px;
+}
+
+/* Footer */
+
+footer {
+  height: 1000px;
 }
