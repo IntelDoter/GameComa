@@ -1,16 +1,19 @@
 
 /* Variables */
-
-$size: 300px;
-
+  $size: 300px;
 /* Header */
 
 .header_fixed {
   width: 100%;
   height: 40%;
   position: fixed;
-  @extend .red;
-  @extend .lighten-2;
+  @extend .red, .lighten-2;
+}
+
+.btn_angle {
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
 }
 
 .head_logo {
@@ -36,13 +39,13 @@ $size: 300px;
 .news_container {
   position: relative;
   background: #fff;
+  padding-bottom: 1px;
 }
 
 .news_project, .news_games {
   height: 40px;
   line-height: 40px;
-  @extend .center;
-  @extend .white-text;
+  @extend .center, .white-text;
   cursor: pointer;
 }
 
@@ -50,17 +53,49 @@ $size: 300px;
   @extend .grey-text;
 }
 
+.news_container  .pagination {
+  margin-bottom: 10px;
+}
+
 /* Server cards */
 
+.status_line {
+  font-size: 2em;
+  position: relative;
+}
+
+.server_head {
+  margin-top: 5px;
+  font-size: 4em;
+  position: relative;
+}
+
+.server_list_bg {
+  @extend .red, .lighten-2;
+  height: 100%;
+  background-attachment: fixed;
+}
+
+.server_list {
+  position: relative;
+  height: 1000px;
+}
+
 .server_card {
-  min-width: $size;
-  min-height: $size;
+  min-width: 320px;
+  min-height: 180px;
   position: relative;
   padding: 5px 20px;
   background: #fff;
   float: left;
   text-align: center;
   @extend .hoverable;
+}
+
+.card_head {
+  font-size: 1.2em;
+  margin: 1.2rem 0 1.824rem 0;
+  line-height: 110%;
 }
 
 .card_wrapper {
@@ -77,10 +112,6 @@ $size: 300px;
   right: $size/20;
 }
 
-.server_address {
-  margin: 15px auto 0 auto;
-}
-
 .server_version {
   margin: -20px 0 0 0;
   font-size: 15px;
@@ -88,22 +119,11 @@ $size: 300px;
 
 .btn_play {
   margin-top: 20px;
+  width: 100%;
 }
 
 .server_card .progress{
   margin: 10px 0 2px 0;
-}
-
-.map .material-icons, .vote .material-icons {
-  @extend .tiny;
-}
-
-.map {
-  float: left;
-}
-
-.vote {
-  float: right;
 }
 
 .bottom_btns {
@@ -114,5 +134,5 @@ $size: 300px;
 /* Footer */
 
 footer {
-  height: 1000px;
+
 }

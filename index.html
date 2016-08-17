@@ -11,22 +11,23 @@
 </head>
 <body>
 
+
 <div class="navbar-fixed">
     <nav>
         <div class="nav-wrapper">
+            <ul id="dropdown1" class="dropdown-content">
+                <li><a href="#>">О проекте</a></li>
+                <li><a href="#>">Иерархия проекта</a></li>
+                <li><a href="#>">Обратная связь</a></li>
+                <li><a href="#>">Статистика игровых серверов</a></li>
+            </ul>
             <ul class="left hide-on-med-and-down">
                 <li class="active"><a href="#">Главная</a></li>
-                <li><a href="#">Новости</a></li>
                 <li><a href="#">Форум</a></li>
                 <li><a href="#">Чат</a></li>
                 <!-- Dropdown  -->
-                <ul id="dropdown1" class="dropdown-content">
-                    <li><a href="#>">О проекте</a></li>
-                    <li><a href="#>">Иерархия проекта</a></li>
-                    <li><a href="#>">Обратная связь</a></li>
-                    <li><a href="#>">Статистика игровых серверов</a></li>
-                </ul>
-                <li><a class="dropdown-button" href="#!" data-activates="dropdown1">Дополнительная информация<i class="material-icons right">arrow_drop_down</i></a></li>
+                <li><a class="dropdown-button" href="#!" data-activates="dropdown1">Дополнительная информация<i
+                        class="material-icons right">arrow_drop_down</i></a></li>
                 <li><a href="#">Chip-o-Matic</a></li>
             </ul>
             <ul class="right hide-on-med-and-down">
@@ -38,6 +39,9 @@
 </div>
 
 <div class="header_fixed"></div>
+<div class="btn_angle"><a href="#server_list" class="btn-floating btn-large waves-effect waves-light red"><i
+        class="material-icons">system_update_alt</i></a></div>
+
 <div class="row container">
     <div class="col s12 offset-m1 m10 offset-l1 l10">
         <div class="head_logo valign-wrapper">
@@ -46,61 +50,83 @@
             <div class="clearfix"></div>
         </div>
 
-            <div class="news_container z-depth-2">
-                <!--<div class="col s6 m6 l6 red accent-2 news_project">Новости проекта</div>
-                <div class="col s6 m6 l6 red accent-2 news_games">Новости Early-access игр</div>-->
+        <div class="news_container z-depth-2">
 
-                <ul class="tabs">
-                    <li class="tab col s6 m6 l6"><a class="active" href="#test1">Новости проекта</a></li>
-                    <li class="tab col s6 m6 l6"><a href="#test2">Новости Early-Access игр</a></li>
-                </ul>
+            <ul class="tabs">
+                <li class="tab col s6 m6 l6"><a class="active" href="#project">Новости проекта</a></li>
+                <li class="tab col s6 m6 l6"><a href="#games">Новости Early-Access игр</a></li>
+            </ul>
 
-                <div class="card paper first">
-                    <div class="card-image">
-                        <img src="css/img/SB_logo.png">
-                        <span class="card-title">Обновление Starbound до 1.0 (РЕЛИЗ)</span>
-                    </div>
-                    <div class="card-content">
-                        <p>Сервер обновлен и запущен</p>
-                    </div>
-                    <div class="card-action">
-                        <a href="#">Посмотреть список изменений</a>
-                    </div>
+            <div id="project">
+            <div class="card paper">
+                <div class="card-image">
+                    <img src="css/img/SB_logo.png">
+                    <span class="card-title">Обновление Starbound до 1.0 (РЕЛИЗ)</span>
                 </div>
+                <div class="card-content">
+                    <p>Сервер обновлен и запущен</p>
+                </div>
+                <div class="card-action">
+                    <a href="#">Посмотреть список изменений</a>
+                </div>
+            </div>
 
-                <div class="card paper">
-                    <div class="card-image">
-                        <img src="css/img/SE_logo.png">
-                        <span class="card-title">Закрытие сервера Space Engineers</span>
-                    </div>
-                    <div class="card-content">
+            <div class="card paper">
+                <div class="card-image">
+                    <img src="css/img/SE_logo.png">
+                    <span class="card-title">Закрытие сервера Space Engineers</span>
+                </div>
+                <div class="card-content">
                         <span class="truncate">
                             Доброго дня!
                             Космические инженеры закрыты, в силу того, что разработчики уже который месяц не предоставляют никаких фиксов известных багов и мультиплеер с такими темпами все ближе к смерти.
                         </span>
-                    </div>
-                    <div class="card-action">
-                        <a href="#">Читать далее...</a>
-                    </div>
                 </div>
+                <div class="card-action">
+                    <a href="#">Читать далее...</a>
+                </div>
+            </div>
 
+            <div class="card paper">
+                <div class="card-image">
+                    <img src="css/img/ARK_logo.png">
+                    <span class="card-title">Вайп ARK, новая карта</span>
+                </div>
+                <div class="card-content">
+                    <p>С выходом первого DLC мы делаем первый вайп за год существования ARK.</p>
+                    <p>Знакомьтесь - The Center это новая карта, на которой вам предстоит освоить абсолютно новый остров
+                        с его подземельями и боссами.</p>
+                </div>
+                <div class="card-action">
+                    <a href="#">Посмотреть список изменений</a>
+                </div>
+            </div>
+
+            <div class="card paper">
+                <div class="card-image">
+                    <img src="css/img/LIF_logo.png">
+                    <span class="card-title">Обновление Life is Feudal до 1.1.2.1</span>
+                </div>
+                <div class="card-action">
+                    <a href="#">Посмотреть список изменений</a>
+                </div>
+            </div>
+
+            <ul class="pagination center">
+                <li class="disabled"><a href="#!"><i class="material-icons">chevron_left</i></a></li>
+                <li class="active"><a href="#!">1</a></li>
+                <li class="waves-effect"><a href="#!">2</a></li>
+                <li class="waves-effect"><a href="#!">3</a></li>
+                <li class="waves-effect"><a href="#!">4</a></li>
+                <li class="waves-effect"><a href="#!">5</a></li>
+                <li class="waves-effect"><a href="#!"><i class="material-icons">chevron_right</i></a></li>
+            </ul>
+            </div>
+
+            <div id="games">
                 <div class="card paper">
                     <div class="card-image">
-                        <img src="css/img/ARK_logo.jpg">
-                        <span class="card-title">Вайп ARK, новая карта</span>
-                    </div>
-                    <div class="card-content">
-                        <p>С выходом первого DLC мы делаем первый вайп за год существования ARK.</p>
-                        <p>Знакомьтесь - The Center это новая карта, на которой вам предстоит освоить абсолютно новый остров с его подземельями и боссами.</p>
-                    </div>
-                    <div class="card-action">
-                        <a href="#">Посмотреть список изменений</a>
-                    </div>
-                </div>
-
-                <div class="card paper">
-                    <div class="card-image">
-                        <img src="css/img/LIF_logo.jpg">
+                        <img src="css/img/LIF_logo.png">
                         <span class="card-title">Обновление Life is Feudal до 1.1.2.1</span>
                     </div>
                     <div class="card-action">
@@ -117,110 +143,72 @@
                     <li class="waves-effect"><a href="#!">5</a></li>
                     <li class="waves-effect"><a href="#!"><i class="material-icons">chevron_right</i></a></li>
                 </ul>
-
             </div>
+
+            <div class="scrollspy" id="server_list"></div>
         </div>
-
-        <div class="server_list">
-
-            <div class="col s12 m6 l3">
-                <div class="card_wrapper">
-                    <div class="server_card">
-                        <h4>Rust</h4>
-                        <div class="server_version">1.8.10</div>
-                        <div class="server_status"></div>
-                        <div class="progress green lighten-4">
-                            <div class="determinate green" style="width: 20%"></div>
-                        </div>
-                        <div class="server_players">2/10</div>
-                        <div class="server_address">
-                            <div class="btn server_ip">IP</div>
-                            <div class="btn server_alias">Alias</div>
-                        </div>
-                        <div class="btn red center btn_play">Играть</div>
-                        <div class="bottom_btns">
-                            <div class="map"><i class="material-icons">location_on</i><a href="#">Карта</a></div>
-                            <div class="vote"><i class="material-icons">done</i><a href="#">Голосовать</a></div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <div class="col s12 m6 l3">
-                <div class="card_wrapper">
-                    <div class="server_card">
-                        <h4>Rust</h4>
-                        <div class="server_version">1.8.10</div>
-                        <div class="server_status"></div>
-                        <div class="progress green lighten-4">
-                            <div class="determinate green" style="width: 20%"></div>
-                        </div>
-                        <div class="server_players">2/10</div>
-                        <div class="server_address">
-                            <div class="btn server_ip">IP</div>
-                            <div class="btn server_alias">Alias</div>
-                        </div>
-                        <div class="btn red center btn_play">Играть</div>
-                        <div class="bottom_btns">
-                            <div class="map"><i class="material-icons">location_on</i><a href="#">Карта</a></div>
-                            <div class="vote"><i class="material-icons">done</i><a href="#">Голосовать</a></div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <div class="col s12 m6 l3">
-                <div class="card_wrapper">
-                    <div class="server_card">
-                        <h4>Rust</h4>
-                        <div class="server_version">1.8.10</div>
-                        <div class="server_status"></div>
-                        <div class="progress green lighten-4">
-                            <div class="determinate green" style="width: 20%"></div>
-                        </div>
-                        <div class="server_players">2/10</div>
-                        <div class="server_address">
-                            <div class="btn server_ip">IP</div>
-                            <div class="btn server_alias">Alias</div>
-                        </div>
-                        <div class="btn red center btn_play">Играть</div>
-                        <div class="bottom_btns">
-                            <div class="map"><i class="material-icons">location_on</i><a href="#">Карта</a></div>
-                            <div class="vote"><i class="material-icons">done</i><a href="#">Голосовать</a></div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <div class="col s12 m6 l3">
-                <div class="card_wrapper">
-                    <div class="server_card">
-                        <h4>Rust</h4>
-                        <div class="server_version">1.8.10</div>
-                        <div class="server_status"></div>
-                        <div class="progress green lighten-4">
-                            <div class="determinate green" style="width: 20%"></div>
-                        </div>
-                        <div class="server_players">2/10</div>
-                        <div class="server_address">
-                            <div class="btn server_ip">IP</div>
-                            <div class="btn server_alias">Alias</div>
-                        </div>
-                        <div class="btn red center btn_play">Играть</div>
-                        <div class="bottom_btns">
-                            <div class="map"><i class="material-icons tiny">location_on</i><a href="#">Карта</a></div>
-                            <div class="vote"><i class="material-icons">done</i><a href="#">Голосовать</a></div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-        </div>
+    </div>
 </div>
 
-<footer></footer>
+
+<div class="row center">
+    <div class="server_head white-text">Список серверов</div>
+    <div class="col s12 l12 m12 status_line  white red-text"> Внимание! Тех работы до 21-00 по МСК</div>
+</div>
+<div class="row server_list_bg">
+    <div class="container">
+        <div class="server_list col s12 m12 l12">
+            <div class="col s12 m6 l4">
+                <div class="card_wrapper">
+                    <div class="server_card">
+                        <div class="card_head">Rust</div>
+                        <div class="server_version">1.8.10</div>
+                        <div class="server_status"></div>
+                        <div class="progress green lighten-4">
+                            <div class="determinate green" style="width: 20%"></div>
+                        </div>
+                        <div class="server_players">2/10</div>
+                        <div class="btn red center btn_play">Играть</div>
+                        <div class="bottom_btns">
+                            <div class="btn server_ip">Карта</div>
+                            <div class="btn server_alias">Голосовать</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</div>
+
+<footer class="page-footer">
+    <div class="container">
+        <div class="row">
+            <div class="col l6 s12">
+                <h5 class="white-text">Footer Content</h5>
+                <p class="grey-text text-lighten-4">You can use rows and columns here to organize your footer content.</p>
+            </div>
+            <div class="col l4 offset-l2 s12">
+                <h5 class="white-text">Links</h5>
+                <ul>
+                    <li><a class="grey-text text-lighten-3" href="#!">Link 1</a></li>
+                    <li><a class="grey-text text-lighten-3" href="#!">Link 2</a></li>
+                    <li><a class="grey-text text-lighten-3" href="#!">Link 3</a></li>
+                    <li><a class="grey-text text-lighten-3" href="#!">Link 4</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="footer-copyright">
+        <div class="container">
+            © 2014 Copyright Text
+            <a class="grey-text text-lighten-4 right" href="#!">More Links</a>
+        </div>
+    </div>
+</footer>
 <!--  Scripts-->
-<script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+<!--<script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>-->
+<script src="js/jquery-3.0.0.min.js"></script>
 <script src="js/materialize.min.js"></script>
 <script src="js/scripts.js"></script>
 
