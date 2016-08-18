@@ -6,6 +6,8 @@
 
 $(document).ready(function(){
 
+    $('.parallax').parallax();
+
     var $angle_btn = $(".btn_angle");
 
     $angle_btn.click(function() {

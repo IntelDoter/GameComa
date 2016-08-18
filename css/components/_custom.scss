@@ -1,138 +1,55 @@
 
-/* Variables */
-  $size: 300px;
-/* Header */
+/*  */
 
-.header_fixed {
-  width: 100%;
-  height: 40%;
-  position: fixed;
-  @extend .red, .lighten-2;
-}
-
-.btn_angle {
-  position: fixed;
-  bottom: 30px;
-  right: 30px;
-}
-
-.head_logo {
-  margin: 30px auto 30px auto;
-}
-
-.logo, .title {
-  position: relative;
-}
-
-.logo img, .title img {
-  width: 100%;
-  height: auto;
-}
-
-.clearfix:after {
-  content: "";
-  display: table;
-  clear: both;
-}
-
- /* News container */
-.news_container {
-  position: relative;
-  background: #fff;
-  padding-bottom: 1px;
-}
-
-.news_project, .news_games {
-  height: 40px;
-  line-height: 40px;
-  @extend .center, .white-text;
-  cursor: pointer;
-}
-
-.news_project .card-title {
-  @extend .grey-text;
-}
-
-.news_container  .pagination {
-  margin-bottom: 10px;
-}
-
-/* Server cards */
-
-.status_line {
-  font-size: 2em;
-  position: relative;
-}
-
-.server_head {
-  margin-top: 5px;
-  font-size: 4em;
-  position: relative;
-}
-
-.server_list_bg {
-  @extend .red, .lighten-2;
-  height: 100%;
-  background-attachment: fixed;
-}
-
-.server_list {
-  position: relative;
-  height: 1000px;
+.first_parallax {
+  height: 400px;
 }
 
 .server_card {
-  min-width: 320px;
-  min-height: 180px;
+  @extend .white, .z-depth-2;
+  height: 250px;
+  min-width: 250px;
+  margin-top: 10px;
   position: relative;
-  padding: 5px 20px;
-  background: #fff;
-  float: left;
-  text-align: center;
-  @extend .hoverable;
 }
 
-.card_head {
-  font-size: 1.2em;
-  margin: 1.2rem 0 1.824rem 0;
-  line-height: 110%;
+.card_top_line {
+  @extend .teal, .white-text;
+  width: 100%;
+  height: 25px
 }
 
-.card_wrapper {
-  padding: 15px;
+.card_img {
+  height: 98px;
+  background-size: cover;
+  border-bottom: 2px solid #8b1014;
+  overflow: hidden;
+}
+
+.card_bottom {
+  padding: 0 15px;
+  margin-top: 5px;
+}
+
+.card_img img {
+  max-width: 100%;
+  height: auto;
 }
 
 .server_status {
-  width: $size/10;
-  height: $size/10;
+  width: 40px;
+  height: 40px;
+  border-radius: 30px;
   @extend .green;
-  border-radius: $size/10;
   position: absolute;
-  top: $size/20;
-  right: $size/20;
+  right: 20px;
+  top: 105px;
 }
 
-.server_version {
-  margin: -20px 0 0 0;
-  font-size: 15px;
+.card_btn_play {
+
 }
 
-.btn_play {
-  margin-top: 20px;
-  width: 100%;
-}
-
-.server_card .progress{
-  margin: 10px 0 2px 0;
-}
-
-.bottom_btns {
-  font-size: 20px;
-  margin-top: 30px;
-}
-
-/* Footer */
-
-footer {
-
+.section {
+  height: 1000px;
 }
