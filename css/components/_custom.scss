@@ -1,16 +1,26 @@
 
-/*  */
+/* Parallax page */
 
 .first_parallax {
   height: 400px;
 }
 
+.server_list {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: nowrap;
+}
+
 .server_card {
-  @extend .white, .z-depth-2;
+  @extend .white, .z-depth-2, .center;
   height: 250px;
-  min-width: 250px;
-  margin-top: 10px;
+  width: 250px;
   position: relative;
+}
+
+.server_list .server_card {
+  margin: 10px 50px 0 50px;
 }
 
 .card_top_line {
@@ -46,10 +56,27 @@
   top: 105px;
 }
 
-.card_btn_play {
-
+.section {
+  height: 600px;
 }
 
-.section {
-  height: 1000px;
+.card_rust {
+  margin-right: auto;
+  margin-left: auto;;
+}
+
+/* Server list page */
+
+.server_list_head {
+  font-size: 3em;
+}
+
+.server_list_page {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+}
+
+.server_list_page .server_card {
+  margin: 30px;
 }
