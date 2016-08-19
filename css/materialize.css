@@ -58,85 +58,85 @@
 .materialize-red-text.text-darken-4 {
   color: #8b1014 !important; }
 
-.red, .header_fixed {
+.red, .rust, .header_fixed {
   background-color: #F44336 !important; }
 
 .red-text {
   color: #F44336 !important; }
 
-.red.lighten-5, .lighten-5.header_fixed {
+.red.lighten-5, .lighten-5.rust, .lighten-5.header_fixed {
   background-color: #FFEBEE !important; }
 
 .red-text.text-lighten-5 {
   color: #FFEBEE !important; }
 
-.red.lighten-4, .lighten-4.header_fixed {
+.red.lighten-4, .lighten-4.rust, .lighten-4.header_fixed {
   background-color: #FFCDD2 !important; }
 
 .red-text.text-lighten-4 {
   color: #FFCDD2 !important; }
 
-.red.lighten-3, .lighten-3.header_fixed {
+.red.lighten-3, .lighten-3.rust, .lighten-3.header_fixed {
   background-color: #EF9A9A !important; }
 
 .red-text.text-lighten-3 {
   color: #EF9A9A !important; }
 
-.red.lighten-2, .header_fixed {
+.red.lighten-2, .lighten-2.rust, .header_fixed {
   background-color: #E57373 !important; }
 
 .red-text.text-lighten-2 {
   color: #E57373 !important; }
 
-.red.lighten-1, .lighten-1.header_fixed {
+.red.lighten-1, .lighten-1.rust, .lighten-1.header_fixed {
   background-color: #EF5350 !important; }
 
 .red-text.text-lighten-1 {
   color: #EF5350 !important; }
 
-.red.darken-1, .darken-1.header_fixed {
+.red.darken-1, .darken-1.rust, .darken-1.header_fixed {
   background-color: #E53935 !important; }
 
 .red-text.text-darken-1 {
   color: #E53935 !important; }
 
-.red.darken-2, .darken-2.header_fixed {
+.red.darken-2, .darken-2.rust, .darken-2.header_fixed {
   background-color: #D32F2F !important; }
 
 .red-text.text-darken-2 {
   color: #D32F2F !important; }
 
-.red.darken-3, .darken-3.header_fixed {
+.red.darken-3, .darken-3.rust, .darken-3.header_fixed {
   background-color: #C62828 !important; }
 
 .red-text.text-darken-3 {
   color: #C62828 !important; }
 
-.red.darken-4, .darken-4.header_fixed {
+.red.darken-4, .darken-4.rust, .darken-4.header_fixed {
   background-color: #B71C1C !important; }
 
 .red-text.text-darken-4 {
   color: #B71C1C !important; }
 
-.red.accent-1, .accent-1.header_fixed {
+.red.accent-1, .accent-1.rust, .accent-1.header_fixed {
   background-color: #FF8A80 !important; }
 
 .red-text.text-accent-1 {
   color: #FF8A80 !important; }
 
-.red.accent-2, .accent-2.header_fixed {
+.red.accent-2, .accent-2.rust, .accent-2.header_fixed {
   background-color: #FF5252 !important; }
 
 .red-text.text-accent-2 {
   color: #FF5252 !important; }
 
-.red.accent-3, .accent-3.header_fixed {
+.red.accent-3, .accent-3.rust, .accent-3.header_fixed {
   background-color: #FF1744 !important; }
 
 .red-text.text-accent-3 {
   color: #FF1744 !important; }
 
-.red.accent-4, .accent-4.header_fixed {
+.red.accent-4, .accent-4.rust, .accent-4.header_fixed {
   background-color: #D50000 !important; }
 
 .red-text.text-accent-4 {
@@ -646,253 +646,253 @@
 .light-blue-text.text-accent-4 {
   color: #0091ea !important; }
 
-.cyan {
+.cyan, .starbound {
   background-color: #00bcd4 !important; }
 
 .cyan-text {
   color: #00bcd4 !important; }
 
-.cyan.lighten-5 {
+.cyan.lighten-5, .lighten-5.starbound {
   background-color: #e0f7fa !important; }
 
 .cyan-text.text-lighten-5 {
   color: #e0f7fa !important; }
 
-.cyan.lighten-4 {
+.cyan.lighten-4, .lighten-4.starbound {
   background-color: #b2ebf2 !important; }
 
 .cyan-text.text-lighten-4 {
   color: #b2ebf2 !important; }
 
-.cyan.lighten-3 {
+.cyan.lighten-3, .lighten-3.starbound {
   background-color: #80deea !important; }
 
 .cyan-text.text-lighten-3 {
   color: #80deea !important; }
 
-.cyan.lighten-2, .cyan.header_fixed {
+.cyan.lighten-2, .lighten-2.starbound, .starbound.header_fixed, .cyan.header_fixed {
   background-color: #4dd0e1 !important; }
 
 .cyan-text.text-lighten-2 {
   color: #4dd0e1 !important; }
 
-.cyan.lighten-1 {
+.cyan.lighten-1, .lighten-1.starbound {
   background-color: #26c6da !important; }
 
 .cyan-text.text-lighten-1 {
   color: #26c6da !important; }
 
-.cyan.darken-1 {
+.cyan.darken-1, .darken-1.starbound {
   background-color: #00acc1 !important; }
 
 .cyan-text.text-darken-1 {
   color: #00acc1 !important; }
 
-.cyan.darken-2 {
+.cyan.darken-2, .darken-2.starbound {
   background-color: #0097a7 !important; }
 
 .cyan-text.text-darken-2 {
   color: #0097a7 !important; }
 
-.cyan.darken-3 {
+.cyan.darken-3, .darken-3.starbound {
   background-color: #00838f !important; }
 
 .cyan-text.text-darken-3 {
   color: #00838f !important; }
 
-.cyan.darken-4 {
+.cyan.darken-4, .darken-4.starbound {
   background-color: #006064 !important; }
 
 .cyan-text.text-darken-4 {
   color: #006064 !important; }
 
-.cyan.accent-1 {
+.cyan.accent-1, .accent-1.starbound {
   background-color: #84ffff !important; }
 
 .cyan-text.text-accent-1 {
   color: #84ffff !important; }
 
-.cyan.accent-2 {
+.cyan.accent-2, .accent-2.starbound {
   background-color: #18ffff !important; }
 
 .cyan-text.text-accent-2 {
   color: #18ffff !important; }
 
-.cyan.accent-3 {
+.cyan.accent-3, .accent-3.starbound {
   background-color: #00e5ff !important; }
 
 .cyan-text.text-accent-3 {
   color: #00e5ff !important; }
 
-.cyan.accent-4 {
+.cyan.accent-4, .accent-4.starbound {
   background-color: #00b8d4 !important; }
 
 .cyan-text.text-accent-4 {
   color: #00b8d4 !important; }
 
-.teal, .card_top_line {
+.teal, .minecraft {
   background-color: #009688 !important; }
 
 .teal-text {
   color: #009688 !important; }
 
-.teal.lighten-5, .lighten-5.card_top_line {
+.teal.lighten-5, .lighten-5.minecraft {
   background-color: #e0f2f1 !important; }
 
 .teal-text.text-lighten-5 {
   color: #e0f2f1 !important; }
 
-.teal.lighten-4, .lighten-4.card_top_line {
+.teal.lighten-4, .lighten-4.minecraft {
   background-color: #b2dfdb !important; }
 
 .teal-text.text-lighten-4 {
   color: #b2dfdb !important; }
 
-.teal.lighten-3, .lighten-3.card_top_line {
+.teal.lighten-3, .lighten-3.minecraft {
   background-color: #80cbc4 !important; }
 
 .teal-text.text-lighten-3 {
   color: #80cbc4 !important; }
 
-.teal.lighten-2, .lighten-2.card_top_line, .card_top_line.header_fixed, .teal.header_fixed {
+.teal.lighten-2, .lighten-2.minecraft, .minecraft.header_fixed, .teal.header_fixed {
   background-color: #4db6ac !important; }
 
 .teal-text.text-lighten-2 {
   color: #4db6ac !important; }
 
-.teal.lighten-1, .lighten-1.card_top_line {
+.teal.lighten-1, .lighten-1.minecraft {
   background-color: #26a69a !important; }
 
 .teal-text.text-lighten-1 {
   color: #26a69a !important; }
 
-.teal.darken-1, .darken-1.card_top_line {
+.teal.darken-1, .darken-1.minecraft {
   background-color: #00897b !important; }
 
 .teal-text.text-darken-1 {
   color: #00897b !important; }
 
-.teal.darken-2, .darken-2.card_top_line {
+.teal.darken-2, .darken-2.minecraft {
   background-color: #00796b !important; }
 
 .teal-text.text-darken-2 {
   color: #00796b !important; }
 
-.teal.darken-3, .darken-3.card_top_line {
+.teal.darken-3, .darken-3.minecraft {
   background-color: #00695c !important; }
 
 .teal-text.text-darken-3 {
   color: #00695c !important; }
 
-.teal.darken-4, .darken-4.card_top_line {
+.teal.darken-4, .darken-4.minecraft {
   background-color: #004d40 !important; }
 
 .teal-text.text-darken-4 {
   color: #004d40 !important; }
 
-.teal.accent-1, .accent-1.card_top_line {
+.teal.accent-1, .accent-1.minecraft {
   background-color: #a7ffeb !important; }
 
 .teal-text.text-accent-1 {
   color: #a7ffeb !important; }
 
-.teal.accent-2, .accent-2.card_top_line {
+.teal.accent-2, .accent-2.minecraft {
   background-color: #64ffda !important; }
 
 .teal-text.text-accent-2 {
   color: #64ffda !important; }
 
-.teal.accent-3, .accent-3.card_top_line {
+.teal.accent-3, .accent-3.minecraft {
   background-color: #1de9b6 !important; }
 
 .teal-text.text-accent-3 {
   color: #1de9b6 !important; }
 
-.teal.accent-4, .accent-4.card_top_line {
+.teal.accent-4, .accent-4.minecraft {
   background-color: #00bfa5 !important; }
 
 .teal-text.text-accent-4 {
   color: #00bfa5 !important; }
 
-.green, .server_status {
+.green, .grav {
   background-color: #4CAF50 !important; }
 
 .green-text {
   color: #4CAF50 !important; }
 
-.green.lighten-5, .lighten-5.server_status {
+.green.lighten-5, .lighten-5.grav {
   background-color: #E8F5E9 !important; }
 
 .green-text.text-lighten-5 {
   color: #E8F5E9 !important; }
 
-.green.lighten-4, .lighten-4.server_status {
+.green.lighten-4, .lighten-4.grav {
   background-color: #C8E6C9 !important; }
 
 .green-text.text-lighten-4 {
   color: #C8E6C9 !important; }
 
-.green.lighten-3, .lighten-3.server_status {
+.green.lighten-3, .lighten-3.grav {
   background-color: #A5D6A7 !important; }
 
 .green-text.text-lighten-3 {
   color: #A5D6A7 !important; }
 
-.green.lighten-2, .lighten-2.server_status, .server_status.header_fixed, .green.header_fixed {
+.green.lighten-2, .lighten-2.grav, .grav.header_fixed, .green.header_fixed {
   background-color: #81C784 !important; }
 
 .green-text.text-lighten-2 {
   color: #81C784 !important; }
 
-.green.lighten-1, .lighten-1.server_status {
+.green.lighten-1, .lighten-1.grav {
   background-color: #66BB6A !important; }
 
 .green-text.text-lighten-1 {
   color: #66BB6A !important; }
 
-.green.darken-1, .darken-1.server_status {
+.green.darken-1, .darken-1.grav {
   background-color: #43A047 !important; }
 
 .green-text.text-darken-1 {
   color: #43A047 !important; }
 
-.green.darken-2, .darken-2.server_status {
+.green.darken-2, .darken-2.grav {
   background-color: #388E3C !important; }
 
 .green-text.text-darken-2 {
   color: #388E3C !important; }
 
-.green.darken-3, .darken-3.server_status {
+.green.darken-3, .darken-3.grav {
   background-color: #2E7D32 !important; }
 
 .green-text.text-darken-3 {
   color: #2E7D32 !important; }
 
-.green.darken-4, .darken-4.server_status {
+.green.darken-4, .darken-4.grav {
   background-color: #1B5E20 !important; }
 
 .green-text.text-darken-4 {
   color: #1B5E20 !important; }
 
-.green.accent-1, .accent-1.server_status {
+.green.accent-1, .accent-1.grav {
   background-color: #B9F6CA !important; }
 
 .green-text.text-accent-1 {
   color: #B9F6CA !important; }
 
-.green.accent-2, .accent-2.server_status {
+.green.accent-2, .accent-2.grav {
   background-color: #69F0AE !important; }
 
 .green-text.text-accent-2 {
   color: #69F0AE !important; }
 
-.green.accent-3, .accent-3.server_status {
+.green.accent-3, .accent-3.grav {
   background-color: #00E676 !important; }
 
 .green-text.text-accent-3 {
   color: #00E676 !important; }
 
-.green.accent-4, .accent-4.server_status {
+.green.accent-4, .accent-4.grav {
   background-color: #00C853 !important; }
 
 .green-text.text-accent-4 {
@@ -1150,85 +1150,85 @@
 .yellow-text.text-accent-4 {
   color: #ffd600 !important; }
 
-.amber {
+.amber, .ark {
   background-color: #ffc107 !important; }
 
 .amber-text {
   color: #ffc107 !important; }
 
-.amber.lighten-5 {
+.amber.lighten-5, .lighten-5.ark {
   background-color: #fff8e1 !important; }
 
 .amber-text.text-lighten-5 {
   color: #fff8e1 !important; }
 
-.amber.lighten-4 {
+.amber.lighten-4, .lighten-4.ark {
   background-color: #ffecb3 !important; }
 
 .amber-text.text-lighten-4 {
   color: #ffecb3 !important; }
 
-.amber.lighten-3 {
+.amber.lighten-3, .lighten-3.ark {
   background-color: #ffe082 !important; }
 
 .amber-text.text-lighten-3 {
   color: #ffe082 !important; }
 
-.amber.lighten-2, .amber.header_fixed {
+.amber.lighten-2, .lighten-2.ark, .ark.header_fixed, .amber.header_fixed {
   background-color: #ffd54f !important; }
 
 .amber-text.text-lighten-2 {
   color: #ffd54f !important; }
 
-.amber.lighten-1 {
+.amber.lighten-1, .lighten-1.ark {
   background-color: #ffca28 !important; }
 
 .amber-text.text-lighten-1 {
   color: #ffca28 !important; }
 
-.amber.darken-1 {
+.amber.darken-1, .darken-1.ark {
   background-color: #ffb300 !important; }
 
 .amber-text.text-darken-1 {
   color: #ffb300 !important; }
 
-.amber.darken-2 {
+.amber.darken-2, .darken-2.ark {
   background-color: #ffa000 !important; }
 
 .amber-text.text-darken-2 {
   color: #ffa000 !important; }
 
-.amber.darken-3 {
+.amber.darken-3, .darken-3.ark {
   background-color: #ff8f00 !important; }
 
 .amber-text.text-darken-3 {
   color: #ff8f00 !important; }
 
-.amber.darken-4 {
+.amber.darken-4, .darken-4.ark {
   background-color: #ff6f00 !important; }
 
 .amber-text.text-darken-4 {
   color: #ff6f00 !important; }
 
-.amber.accent-1 {
+.amber.accent-1, .accent-1.ark {
   background-color: #ffe57f !important; }
 
 .amber-text.text-accent-1 {
   color: #ffe57f !important; }
 
-.amber.accent-2 {
+.amber.accent-2, .accent-2.ark {
   background-color: #ffd740 !important; }
 
 .amber-text.text-accent-2 {
   color: #ffd740 !important; }
 
-.amber.accent-3 {
+.amber.accent-3, .accent-3.ark {
   background-color: #ffc400 !important; }
 
 .amber-text.text-accent-3 {
   color: #ffc400 !important; }
 
-.amber.accent-4 {
+.amber.accent-4, .accent-4.ark {
   background-color: #ffab00 !important; }
 
 .amber-text.text-accent-4 {
@@ -1402,181 +1402,181 @@
 .deep-orange-text.text-accent-4 {
   color: #dd2c00 !important; }
 
-.brown {
+.brown, .empyrion {
   background-color: #795548 !important; }
 
 .brown-text {
   color: #795548 !important; }
 
-.brown.lighten-5 {
+.brown.lighten-5, .lighten-5.empyrion {
   background-color: #efebe9 !important; }
 
 .brown-text.text-lighten-5 {
   color: #efebe9 !important; }
 
-.brown.lighten-4 {
+.brown.lighten-4, .lighten-4.empyrion {
   background-color: #d7ccc8 !important; }
 
 .brown-text.text-lighten-4 {
   color: #d7ccc8 !important; }
 
-.brown.lighten-3 {
+.brown.lighten-3, .lighten-3.empyrion {
   background-color: #bcaaa4 !important; }
 
 .brown-text.text-lighten-3 {
   color: #bcaaa4 !important; }
 
-.brown.lighten-2, .brown.header_fixed {
+.brown.lighten-2, .lighten-2.empyrion, .empyrion.header_fixed, .brown.header_fixed {
   background-color: #a1887f !important; }
 
 .brown-text.text-lighten-2 {
   color: #a1887f !important; }
 
-.brown.lighten-1 {
+.brown.lighten-1, .lighten-1.empyrion {
   background-color: #8d6e63 !important; }
 
 .brown-text.text-lighten-1 {
   color: #8d6e63 !important; }
 
-.brown.darken-1 {
+.brown.darken-1, .darken-1.empyrion {
   background-color: #6d4c41 !important; }
 
 .brown-text.text-darken-1 {
   color: #6d4c41 !important; }
 
-.brown.darken-2 {
+.brown.darken-2, .darken-2.empyrion {
   background-color: #5d4037 !important; }
 
 .brown-text.text-darken-2 {
   color: #5d4037 !important; }
 
-.brown.darken-3 {
+.brown.darken-3, .darken-3.empyrion {
   background-color: #4e342e !important; }
 
 .brown-text.text-darken-3 {
   color: #4e342e !important; }
 
-.brown.darken-4 {
+.brown.darken-4, .darken-4.empyrion {
   background-color: #3e2723 !important; }
 
 .brown-text.text-darken-4 {
   color: #3e2723 !important; }
 
-.blue-grey {
+.blue-grey, .lif {
   background-color: #607d8b !important; }
 
 .blue-grey-text {
   color: #607d8b !important; }
 
-.blue-grey.lighten-5 {
+.blue-grey.lighten-5, .lighten-5.lif {
   background-color: #eceff1 !important; }
 
 .blue-grey-text.text-lighten-5 {
   color: #eceff1 !important; }
 
-.blue-grey.lighten-4 {
+.blue-grey.lighten-4, .lighten-4.lif {
   background-color: #cfd8dc !important; }
 
 .blue-grey-text.text-lighten-4 {
   color: #cfd8dc !important; }
 
-.blue-grey.lighten-3 {
+.blue-grey.lighten-3, .lighten-3.lif {
   background-color: #b0bec5 !important; }
 
 .blue-grey-text.text-lighten-3 {
   color: #b0bec5 !important; }
 
-.blue-grey.lighten-2, .blue-grey.header_fixed {
+.blue-grey.lighten-2, .lighten-2.lif, .lif.header_fixed, .blue-grey.header_fixed {
   background-color: #90a4ae !important; }
 
 .blue-grey-text.text-lighten-2 {
   color: #90a4ae !important; }
 
-.blue-grey.lighten-1 {
+.blue-grey.lighten-1, .lighten-1.lif {
   background-color: #78909c !important; }
 
 .blue-grey-text.text-lighten-1 {
   color: #78909c !important; }
 
-.blue-grey.darken-1 {
+.blue-grey.darken-1, .darken-1.lif {
   background-color: #546e7a !important; }
 
 .blue-grey-text.text-darken-1 {
   color: #546e7a !important; }
 
-.blue-grey.darken-2 {
+.blue-grey.darken-2, .darken-2.lif {
   background-color: #455a64 !important; }
 
 .blue-grey-text.text-darken-2 {
   color: #455a64 !important; }
 
-.blue-grey.darken-3 {
+.blue-grey.darken-3, .darken-3.lif {
   background-color: #37474f !important; }
 
 .blue-grey-text.text-darken-3 {
   color: #37474f !important; }
 
-.blue-grey.darken-4 {
+.blue-grey.darken-4, .darken-4.lif {
   background-color: #263238 !important; }
 
 .blue-grey-text.text-darken-4 {
   color: #263238 !important; }
 
-.grey {
+.grey, .dtd {
   background-color: #9e9e9e !important; }
 
 .grey-text, .news_project .card-title {
   color: #9e9e9e !important; }
 
-.grey.lighten-5 {
+.grey.lighten-5, .lighten-5.dtd {
   background-color: #fafafa !important; }
 
 .grey-text.text-lighten-5, .news_project .text-lighten-5.card-title {
   color: #fafafa !important; }
 
-.grey.lighten-4 {
+.grey.lighten-4, .lighten-4.dtd {
   background-color: #f5f5f5 !important; }
 
 .grey-text.text-lighten-4, .news_project .text-lighten-4.card-title {
   color: #f5f5f5 !important; }
 
-.grey.lighten-3 {
+.grey.lighten-3, .lighten-3.dtd {
   background-color: #eeeeee !important; }
 
 .grey-text.text-lighten-3, .news_project .text-lighten-3.card-title {
   color: #eeeeee !important; }
 
-.grey.lighten-2, .grey.header_fixed {
+.grey.lighten-2, .lighten-2.dtd, .dtd.header_fixed, .grey.header_fixed {
   background-color: #e0e0e0 !important; }
 
 .grey-text.text-lighten-2, .news_project .text-lighten-2.card-title {
   color: #e0e0e0 !important; }
 
-.grey.lighten-1 {
+.grey.lighten-1, .lighten-1.dtd {
   background-color: #bdbdbd !important; }
 
 .grey-text.text-lighten-1, .news_project .text-lighten-1.card-title {
   color: #bdbdbd !important; }
 
-.grey.darken-1 {
+.grey.darken-1, .darken-1.dtd {
   background-color: #757575 !important; }
 
 .grey-text.text-darken-1, .news_project .text-darken-1.card-title {
   color: #757575 !important; }
 
-.grey.darken-2 {
+.grey.darken-2, .darken-2.dtd {
   background-color: #616161 !important; }
 
 .grey-text.text-darken-2, .news_project .text-darken-2.card-title {
   color: #616161 !important; }
 
-.grey.darken-3 {
+.grey.darken-3, .darken-3.dtd {
   background-color: #424242 !important; }
 
 .grey-text.text-darken-3, .news_project .text-darken-3.card-title {
   color: #424242 !important; }
 
-.grey.darken-4 {
+.grey.darken-4, .darken-4.dtd {
   background-color: #212121 !important; }
 
 .grey-text.text-darken-4, .news_project .text-darken-4.card-title {
@@ -6147,10 +6147,7 @@ button.picker__today:focus, button.picker__clear:focus, button.picker__close:foc
 @media (min-height: 40.125em) {
   .picker--time .picker__box {
     margin-bottom: 5em; } }
-/* Parallax page */
-.first_parallax {
-  height: 400px; }
-
+/* Cards */
 .server_list {
   display: flex;
   flex-direction: row;
@@ -6172,7 +6169,6 @@ button.picker__today:focus, button.picker__clear:focus, button.picker__close:foc
 .card_img {
   height: 98px;
   background-size: cover;
-  border-bottom: 2px solid #8b1014;
   overflow: hidden; }
 
 .card_bottom {
@@ -6187,16 +6183,42 @@ button.picker__today:focus, button.picker__clear:focus, button.picker__close:foc
   width: 40px;
   height: 40px;
   border-radius: 30px;
+  border: 4px solid #4CAF50;
   position: absolute;
   right: 20px;
-  top: 105px; }
+  top: 102px; }
+
+/* Custom colors */
+.minecraft_img {
+  border-bottom: 2px solid #009688; }
+
+.rust_img {
+  border-bottom: 2px solid #F44336; }
+
+.starbound_img {
+  border-bottom: 2px solid #00bcd4; }
+
+.grav_img {
+  border-bottom: 2px solid #4CAF50; }
+
+.ark_img {
+  border-bottom: 2px solid #ffc107; }
+
+.dtd_img {
+  border-bottom: 2px solid #9e9e9e; }
+
+.lif_img {
+  border-bottom: 2px solid #607d8b; }
+
+.empyrion_img {
+  border-bottom: 2px solid #795548; }
+
+/* Parallax page */
+.first_parallax {
+  height: 400px; }
 
 .section {
   height: 600px; }
-
-.card_rust {
-  margin-right: auto;
-  margin-left: auto; }
 
 /* Server list page */
 .server_list_head {
@@ -6208,7 +6230,18 @@ button.picker__today:focus, button.picker__clear:focus, button.picker__close:foc
   justify-content: space-between; }
 
 .server_list_page .server_card {
-  margin: 30px; }
+  margin: 15px; }
+
+.footer_img {
+  display: inline-block;
+  width: 35px;
+  height: 35px;
+  margin-top: 7px; }
+
+.footer_img img {
+  width: 100%;
+  height: auto;
+  background-size: cover; }
 
 .header_fixed {
   width: 100%;

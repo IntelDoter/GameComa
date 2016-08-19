@@ -1,9 +1,4 @@
-
-/* Parallax page */
-
-.first_parallax {
-  height: 400px;
-}
+/* Cards */
 
 .server_list {
   display: flex;
@@ -24,7 +19,7 @@
 }
 
 .card_top_line {
-  @extend .teal, .white-text;
+  @extend .white-text;
   width: 100%;
   height: 25px
 }
@@ -32,7 +27,6 @@
 .card_img {
   height: 98px;
   background-size: cover;
-  border-bottom: 2px solid #8b1014;
   overflow: hidden;
 }
 
@@ -50,19 +44,86 @@
   width: 40px;
   height: 40px;
   border-radius: 30px;
-  @extend .green;
+  border: 4px solid color("green", "base");
   position: absolute;
   right: 20px;
-  top: 105px;
+  top: 102px;
+}
+
+/* Custom colors */
+
+.minecraft {
+  @extend .teal;
+}
+
+.minecraft_img {
+  border-bottom: 2px solid color("teal", "base");
+}
+
+.rust {
+  @extend .red;
+}
+
+.rust_img {
+  border-bottom: 2px solid color("red", "base");
+}
+
+.starbound {
+  @extend .cyan;
+}
+
+.starbound_img {
+  border-bottom: 2px solid color("cyan", "base");
+}
+
+.grav {
+  @extend .green;
+}
+
+.grav_img {
+  border-bottom: 2px solid color("green", "base");
+}
+
+.ark {
+  @extend .amber;
+}
+
+.ark_img {
+  border-bottom: 2px solid color("amber", "base");
+}
+
+.dtd {
+  @extend .grey;
+}
+
+.dtd_img {
+  border-bottom: 2px solid color("grey", "base");
+}
+
+.lif {
+  @extend .blue-grey;
+}
+
+.lif_img {
+  border-bottom: 2px solid color("blue-grey", "base");
+}
+
+.empyrion {
+  @extend .brown;
+}
+
+.empyrion_img {
+  border-bottom: 2px solid color("brown", "base");
+}
+
+/* Parallax page */
+
+.first_parallax {
+  height: 400px;
 }
 
 .section {
   height: 600px;
-}
-
-.card_rust {
-  margin-right: auto;
-  margin-left: auto;;
 }
 
 /* Server list page */
@@ -78,5 +139,18 @@
 }
 
 .server_list_page .server_card {
-  margin: 30px;
+  margin: 15px;
+}
+
+.footer_img {
+  display: inline-block;
+  width: 35px;
+  height: 35px;
+  margin-top: 7px;
+}
+
+.footer_img img {
+  width: 100%;
+  height: auto;
+  background-size: cover;
 }
