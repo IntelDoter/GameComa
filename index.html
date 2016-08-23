@@ -11,7 +11,16 @@
 </head>
 <body>
 
-
+<!--<div class="navigation_bar">
+    <div class="minecraft_nav"><img src="css/img/Minecraft_nav.jpg"></div>
+    <div class="minecraft_nav"></div>
+    <div class="minecraft_nav"></div>
+    <div class="minecraft_nav"></div>
+    <div class="minecraft_nav"></div>
+    <div class="minecraft_nav"></div>
+    <div class="minecraft_nav"></div>
+    <div class="minecraft_nav"></div>
+</div>-->
 
 <nav id="begin">
     <div class="nav-wrapper">
@@ -39,6 +48,23 @@
     </div>
 </nav>
 
+<div class="navbar-fixed nav_games">
+    <nav>
+        <div class="nav-wrapper">
+            <ul>
+                <li><a href="#">Minecraft</a></li>
+                <li><a href="#">Rust</a></li>
+                <li><a href="#">Starbound</a></li>
+                <li><a href="#">Life Is Feudal</a></li>
+                <li><a href="#">GRAV</a></li>
+                <li><a href="#">ARK</a></li>
+                <li><a href="#">7 days to die</a></li>
+                <li><a href="#">Empyrion</a></li>
+            </ul>
+        </div>
+    </nav>
+</div>
+
 <div class="btn_top"><a href="#begin" class="btn-floating btn-large waves-effect waves-light red"><i
         class="material-icons">call_merge</i></a></div>
 
@@ -47,8 +73,14 @@
 </div>
 <div class="section white">
     <div class="row container">
-        <h2 class="header">Gamecoma</h2>
-        <p class="grey-text text-darken-3 lighten-3">Loren ipsilum и всё такое</p>
+        <div class="col l8">
+            <h3 class="header caller">Куда я попал?</h3>
+            <p class="">Gamecoma.ru - Ресурс с игровыми серверами, для онлайн игр, наиболее популярных и интересных для нас в данный момент. Сервера поднимаются для удовлетворения нашего желания поиграть, и ничего более. Поднимаются для самих себя. Если кто-то присоединиться к нам, мы будем только рады этому. Захотим поиграть во что-то новое или интересное - поднимем другой.</p>
+            <p>Так получается, что часто сперва ты играешь, потом помогаешь играть другим игрокам, а потом уже и модерируешь форум или занимаешься администрированием самого игрового сервера. Мы опытны во всех этих делах.</p>
+            <p>Для любой игры есть правила, без правил нет игры. Модераторы и администраторы игры гарантируют контроль за соблюдением правил игры на открытых серверах. Открытые сервера не будут закрыты в одно мгновение по желанию или нежеланию администрации. Пока есть игроки сервера будут работать.</p>
+
+                <p>Поживем, увидим, что из этого получится!</p>
+        </div>
     </div>
 </div>
 
@@ -57,7 +89,7 @@
 
         <div class="server_list">
             <div class="server_card">
-                <div class="server_status"></div>
+                <div class="server_status online tooltipped" data-position="top" data-delay="50" data-tooltip="Сервер онлайн"></div>
                 <div class="card_top_line minecraft">Minecraft Classic</div>
                 <div class="card_img minecraft_img"><img src="css/img/cards/minecraft_vanilla_1.jpg"></div>
                 <div class="card_bottom">
@@ -70,7 +102,7 @@
             </div>
 
             <div class="server_card">
-                <div class="server_status"></div>
+                <div class="server_status offline tooltipped" data-position="top" data-delay="50" data-tooltip="Сервер оффлайн"></div>
                 <div class="card_top_line minecraft">Minecraft Techno</div>
                 <div class="card_img minecraft_img"><img src="css/img/cards/minecraft_vanilla_2.jpg"></div>
                 <div class="card_bottom">
@@ -83,7 +115,7 @@
             </div>
 
             <div class="server_card">
-                <div class="server_status"></div>
+                <div class="server_status online"></div>
                 <div class="card_top_line minecraft">Minecraft Hard-Techno</div>
                 <div class="card_img minecraft_img"><img src="css/img/cards/minecraft_techno_1.jpg"></div>
                 <div class="card_bottom">
@@ -98,8 +130,14 @@
 </div>
 <div class="section white">
     <div class="row container">
-        <h2 class="header">Сервера майнкрафт</h2>
-        <p class="grey-text text-darken-3 lighten-3">Loren ipsilum и всё такое</p>
+        <div class="col l8">
+            <h2 class="header">Как начать играть?</h2>
+            <p>1) Необходимо <a href="#">зарегистрироваться</a></p>
+            <p>2) <a href="#">Проверьте версию Java</a> установленную на вашем компьютере. Для гарантированной работы клиента необходима версия не ниже <span class="green-text">8u101</span>.</p>
+            <p>3) <a href="#">Скачайте Лаунчер</a>, запустите его, введите в левой части лаунчера свои Логин и Пароль от форума GameComa.ru.</p>
+            <h2 class="header">А что с донатом?</h2>
+            <p>Доната нет. Совсем. Есть список запрещенных вещей, с которым можно ознакомиться <a href="#">здесь.</a></p>
+        </div>
     </div>
 </div>
 
@@ -107,6 +145,7 @@
     <div class="parallax"><img src="css/img/parallax/rust_2.jpg"></div>
     <div class="server_list">
         <div class="server_card">
+            <div class="server_status online"></div>
             <div class="card_top_line rust">Rust</div>
             <div class="card_img rust_img"><img src="css/img/cards/rust_1.jpg"></div>
             <div class="card_bottom">
@@ -130,6 +169,7 @@
     <div class="parallax"><img src="css/img/parallax/starbound_1.jpg"></div>
     <div class="server_list">
         <div class="server_card">
+            <div class="server_status online"></div>
             <div class="card_top_line starbound">Starbound</div>
             <div class="card_img starbound_img"><img src="css/img/cards/starbound_1.jpg"></div>
             <div class="card_bottom">
@@ -153,6 +193,7 @@
     <div class="parallax"><img src="css/img/parallax/lif_1.jpg"></div>
     <div class="server_list">
         <div class="server_card">
+            <div class="server_status online"></div>
             <div class="card_top_line lif">Life Is Feudal</div>
             <div class="card_img lif_img"><img src="css/img/cards/lif_2.png"></div>
             <div class="card_bottom">
@@ -172,11 +213,11 @@
     </div>
 </div>
 
-
 <div class="parallax-container">
     <div class="parallax"><img src="css/img/parallax/grav_1.jpg"></div>
     <div class="server_list">
         <div class="server_card center">
+            <div class="server_status online"></div>
             <div class="card_top_line grav">GRAV</div>
             <div class="card_img grav_img"><img src="css/img/cards/grav_2.jpg"></div>
             <div class="card_bottom">
@@ -200,6 +241,7 @@
     <div class="parallax"><img src="css/img/parallax/ark_1.jpg"></div>
     <div class="server_list">
         <div class="server_card center">
+            <div class="server_status online"></div>
             <div class="card_top_line ark">ARK</div>
             <div class="card_img ark_img"><img src="css/img/cards/ark_1.jpg"></div>
             <div class="card_bottom">
@@ -223,6 +265,7 @@
     <div class="parallax"><img src="css/img/parallax/7D2D_1.jpg"></div>
     <div class="server_list">
         <div class="server_card center">
+            <div class="server_status online"></div>
             <div class="card_top_line dtd">7 days to die</div>
             <div class="card_img dtd_img"><img src="css/img/cards/ark_1.jpg"></div>
             <div class="card_bottom">
@@ -246,6 +289,7 @@
     <div class="parallax"><img src="css/img/parallax/emp_1.jpg"></div>
     <div class="server_list">
         <div class="server_card center">
+            <div class="server_status online"></div>
             <div class="card_top_line empyrion">Empyrion</div>
             <div class="card_img empyrion_img"><img src="css/img/cards/emp_2.jpg"></div>
             <div class="card_bottom">
@@ -284,11 +328,11 @@
     </div>
 
     <div class="footer-copyright">
-        <div class="container">
-            © 2016 Gamecoma.ru
-            <div class="right">
-                <div class="footer_img"><img src="css/img/vk.png"></div>
-                <div class="footer_img"><img src="css/img/steam.png"></div>
+        <div class="container row">
+            <div class="col l8">© 2016 Gamecoma.ru</div>
+            <div class="col l4">
+                <div class="footer_img"><a href="#"><img src="css/img/vk.png"></a></div>
+                <div class="footer_img"><a href="#"><img src="css/img/steam.png"></a></div>
             </div>
         </div>
     </div>
@@ -297,6 +341,7 @@
 <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
 <!--<script src="js/jquery-3.0.0.min.js"></script>-->
 <script src="js/materialize.min.js"></script>
+<script src="js/jquery.scrollfire.min.js"></script>
 <script src="js/scripts.js"></script>
 
 </body>
