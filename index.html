@@ -11,16 +11,16 @@
 </head>
 <body>
 
-<!--<div class="navigation_bar">
-    <div class="minecraft_nav"><img src="css/img/Minecraft_nav.jpg"></div>
-    <div class="minecraft_nav"></div>
-    <div class="minecraft_nav"></div>
-    <div class="minecraft_nav"></div>
-    <div class="minecraft_nav"></div>
-    <div class="minecraft_nav"></div>
-    <div class="minecraft_nav"></div>
-    <div class="minecraft_nav"></div>
-</div>-->
+<div class="navigation_bar">
+    <div class="nav_link"><a href="#minecraft"><img class="responsive-img" src="css/img/nav_icons/Minecraft_nav.png"></a></div>
+    <div class="nav_link"><img class="responsive-img" src="css/img/nav_icons/Rust_nav.jpg"></div>
+    <div class="nav_link"><img class="responsive-img" src="css/img/nav_icons/Starbound_nav.png"></div>
+    <div class="nav_link"><img class="responsive-img" src="css/img/nav_icons/Lif_nav.png"></div>
+    <div class="nav_link"><img class="responsive-img" src="css/img/nav_icons/Grav_nav.jpg"></div>
+    <div class="nav_link"><img class="responsive-img" src="css/img/nav_icons/Ark_nav.png"></div>
+    <div class="nav_link"><img class="responsive-img" src="css/img/nav_icons/7d_nav.jpg"></div>
+    <div class="nav_link"></div>
+</div>
 
 <nav id="begin">
     <div class="nav-wrapper">
@@ -48,25 +48,7 @@
     </div>
 </nav>
 
-<div class="navbar-fixed nav_games">
-    <nav>
-        <div class="nav-wrapper">
-            <ul>
-                <li><a href="#">Minecraft</a></li>
-                <li><a href="#">Rust</a></li>
-                <li><a href="#">Starbound</a></li>
-                <li><a href="#">Life Is Feudal</a></li>
-                <li><a href="#">GRAV</a></li>
-                <li><a href="#">ARK</a></li>
-                <li><a href="#">7 days to die</a></li>
-                <li><a href="#">Empyrion</a></li>
-            </ul>
-        </div>
-    </nav>
-</div>
-
-<div class="btn_top"><a href="#begin" class="btn-floating btn-large waves-effect waves-light red"><i
-        class="material-icons">call_merge</i></a></div>
+<div class="btn_top"><a href="#begin" class="btn-floating btn-large waves-effect waves-light red"><img src="css/img/arrow_up.png"></a></div>
 
 <div class="parallax-container first_parallax">
     <div class="parallax"><img src="css/img/parallax/grav_1.jpg"></div>
@@ -115,7 +97,7 @@
             </div>
 
             <div class="server_card">
-                <div class="server_status online"></div>
+                <div class="server_status online tooltipped" data-position="top" data-delay="50" data-tooltip="Сервер онлайн"></div>
                 <div class="card_top_line minecraft">Minecraft Hard-Techno</div>
                 <div class="card_img minecraft_img"><img src="css/img/cards/minecraft_techno_1.jpg"></div>
                 <div class="card_bottom">
@@ -128,7 +110,7 @@
         </div>
     </div>
 </div>
-<div class="section white">
+<div id="minecraft" class="section scrollspy white">
     <div class="row container">
         <div class="col l8">
             <h2 class="header">Как начать играть?</h2>
@@ -145,7 +127,7 @@
     <div class="parallax"><img src="css/img/parallax/rust_2.jpg"></div>
     <div class="server_list">
         <div class="server_card">
-            <div class="server_status online"></div>
+            <div class="server_status online tooltipped" data-position="top" data-delay="50" data-tooltip="Сервер онлайн"></div>
             <div class="card_top_line rust">Rust</div>
             <div class="card_img rust_img"><img src="css/img/cards/rust_1.jpg"></div>
             <div class="card_bottom">
@@ -169,7 +151,7 @@
     <div class="parallax"><img src="css/img/parallax/starbound_1.jpg"></div>
     <div class="server_list">
         <div class="server_card">
-            <div class="server_status online"></div>
+            <div class="server_status online tooltipped" data-position="top" data-delay="50" data-tooltip="Сервер онлайн"></div>
             <div class="card_top_line starbound">Starbound</div>
             <div class="card_img starbound_img"><img src="css/img/cards/starbound_1.jpg"></div>
             <div class="card_bottom">
@@ -193,7 +175,7 @@
     <div class="parallax"><img src="css/img/parallax/lif_1.jpg"></div>
     <div class="server_list">
         <div class="server_card">
-            <div class="server_status online"></div>
+            <div class="server_status online tooltipped" data-position="top" data-delay="50" data-tooltip="Сервер онлайн"></div>
             <div class="card_top_line lif">Life Is Feudal</div>
             <div class="card_img lif_img"><img src="css/img/cards/lif_2.png"></div>
             <div class="card_bottom">
@@ -217,7 +199,7 @@
     <div class="parallax"><img src="css/img/parallax/grav_1.jpg"></div>
     <div class="server_list">
         <div class="server_card center">
-            <div class="server_status online"></div>
+            <div class="server_status online tooltipped" data-position="top" data-delay="50" data-tooltip="Сервер онлайн"></div>
             <div class="card_top_line grav">GRAV</div>
             <div class="card_img grav_img"><img src="css/img/cards/grav_2.jpg"></div>
             <div class="card_bottom">
@@ -241,7 +223,7 @@
     <div class="parallax"><img src="css/img/parallax/ark_1.jpg"></div>
     <div class="server_list">
         <div class="server_card center">
-            <div class="server_status online"></div>
+            <div class="server_status online tooltipped" data-position="top" data-delay="50" data-tooltip="Сервер онлайн"></div>
             <div class="card_top_line ark">ARK</div>
             <div class="card_img ark_img"><img src="css/img/cards/ark_1.jpg"></div>
             <div class="card_bottom">
@@ -265,7 +247,7 @@
     <div class="parallax"><img src="css/img/parallax/7D2D_1.jpg"></div>
     <div class="server_list">
         <div class="server_card center">
-            <div class="server_status online"></div>
+            <div class="server_status online tooltipped" data-position="top" data-delay="50" data-tooltip="Сервер онлайн"></div>
             <div class="card_top_line dtd">7 days to die</div>
             <div class="card_img dtd_img"><img src="css/img/cards/ark_1.jpg"></div>
             <div class="card_bottom">
@@ -289,7 +271,7 @@
     <div class="parallax"><img src="css/img/parallax/emp_1.jpg"></div>
     <div class="server_list">
         <div class="server_card center">
-            <div class="server_status online"></div>
+            <div class="server_status online tooltipped" data-position="top" data-delay="50" data-tooltip="Сервер онлайн"></div>
             <div class="card_top_line empyrion">Empyrion</div>
             <div class="card_img empyrion_img"><img src="css/img/cards/emp_2.jpg"></div>
             <div class="card_bottom">
@@ -341,7 +323,6 @@
 <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
 <!--<script src="js/jquery-3.0.0.min.js"></script>-->
 <script src="js/materialize.min.js"></script>
-<script src="js/jquery.scrollfire.min.js"></script>
 <script src="js/scripts.js"></script>
 
 </body>

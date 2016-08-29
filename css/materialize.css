@@ -6228,19 +6228,21 @@ button.picker__today:focus, button.picker__clear:focus, button.picker__close:foc
   position: fixed;
   top: 50%;
   right: 50px;
-  margin-top: -260px; }
+  margin-top: -260px;
+  z-index: 1; }
 
-.minecraft_nav {
+.nav_link {
   position: relative;
   width: 40px;
   height: 40px;
+  border-radius: 40px;
   margin-top: 25px;
   cursor: pointer; }
 
 .minecraft_nav:hover {
   transform: scale(1.2); }
 
-.minecraft_nav img {
+.nav_link img {
   width: 100%;
   height: auto;
   border-radius: 40px;
@@ -6279,6 +6281,10 @@ button.picker__today:focus, button.picker__clear:focus, button.picker__close:foc
   z-index: 2;
   bottom: 30px;
   right: 30px; }
+
+.btn_top img {
+  width: 100%;
+  height: auto; }
 
 .head_logo {
   margin: 30px auto 30px auto; }

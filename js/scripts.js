@@ -7,15 +7,13 @@
 $(document).ready(function(){
     $('.parallax').parallax();
 
-    $('.caller').scrollfire({
+    $(".nav_link").hover(
+        function() {
+            $(this).css("transform","scale(1.4)")
+        },
+        function() {
+            $(this).css("transform","scale(1)")
+        }
+    )
 
-        offset: 0,
-        topOffset: 150,
-        bottomOffset: 150,
-
-        onTopHidden: function(nav_games){
-        $(elm).css("display", "block");
-    }
-    });
-
-})
+});
