@@ -6,14 +6,14 @@
 
 $(document).ready(function(){
     $('.parallax').parallax();
+    $('.scrollspy').scrollSpy();
 
-    $(".nav_link").hover(
-        function() {
-            $(this).css("transform","scale(1.4)")
-        },
-        function() {
-            $(this).css("transform","scale(1)")
-        }
-    )
+    $('#lightSlider').lightSlider({
+        gallery: true,
+        item: 1,
+        loop:true,
+        slideMargin: 0,
+        thumbItem: 9
+    });
 
 });

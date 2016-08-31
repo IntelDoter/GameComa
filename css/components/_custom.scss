@@ -5,6 +5,10 @@
   flex-direction: row;
   justify-content: center;
   flex-wrap: nowrap;
+
+  .server_card {
+    margin: 10px 50px 0 50px;
+  }
 }
 
 .server_card {
@@ -12,10 +16,6 @@
   height: 250px;
   width: 250px;
   position: relative;
-}
-
-.server_list .server_card {
-  margin: 10px 50px 0 50px;
 }
 
 .card_top_line {
@@ -28,16 +28,16 @@
   height: 98px;
   background-size: cover;
   overflow: hidden;
+
+  img {
+    max-width: 100%;
+    height: auto;
+  }
 }
 
 .card_bottom {
   padding: 0 15px;
   margin-top: 5px;
-}
-
-.card_img img {
-  max-width: 100%;
-  height: auto;
 }
 
 .online {
@@ -62,67 +62,115 @@
 /* Custom colors */
 
 .minecraft {
-  @extend .teal;
+  .card_top_line, .progress, .determinate, .btn-large {
+    @extend .teal;
+  }
+
+  .card_img {
+    border-bottom: 2px solid color("teal", "base");
+  }
 }
 
-.minecraft_img {
-  border-bottom: 2px solid color("teal", "base");
+#minecraft {
+  outline: 2px solid color("teal", "base");
 }
 
 .rust {
-  @extend .red;
+  .card_top_line, .progress, .determinate, .btn-large {
+    @extend .red;
+  }
+
+  .card_img {
+    border-bottom: 2px solid color("red", "base");
+  }
 }
 
-.rust_img {
-  border-bottom: 2px solid color("red", "base");
+#rust {
+  outline: 2px solid color("red", "base");
 }
 
 .starbound {
-  @extend .cyan;
+  .card_top_line, .progress, .determinate, .btn-large {
+    @extend .cyan;
+  }
+
+  .card_img {
+    border-bottom: 2px solid color("cyan", "base");
+  }
 }
 
-.starbound_img {
-  border-bottom: 2px solid color("cyan", "base");
+#starbound {
+  outline: 2px solid color("cyan", "base");
 }
 
 .grav {
-  @extend .green;
+  .card_top_line, .progress, .determinate, .btn-large {
+    @extend .green;
+  }
+
+  .card_img {
+    border-bottom: 2px solid color("green", "base");
+  }
 }
 
-.grav_img {
-  border-bottom: 2px solid color("green", "base");
+#grav {
+  outline: 2px solid color("green", "base");
 }
 
 .ark {
-  @extend .amber;
+  .card_top_line, .progress, .determinate, .btn-large {
+    @extend .amber;
+  }
+
+  .card_img {
+    border-bottom: 2px solid color("amber", "base");
+  }
 }
 
-.ark_img {
-  border-bottom: 2px solid color("amber", "base");
+#ark {
+  outline: 2px solid color("teal", "amber");
 }
 
 .dtd {
-  @extend .grey;
+  .card_top_line, .progress, .determinate, .btn-large {
+    @extend .grey;
+  }
+
+  .card_img {
+    border-bottom: 2px solid color("grey", "base");
+  }
 }
 
-.dtd_img {
-  border-bottom: 2px solid color("grey", "base");
+#dtd {
+  outline: 2px solid color("grey", "base");
 }
 
 .lif {
-  @extend .blue-grey;
+  .card_top_line, .progress, .determinate, .btn-large {
+    @extend .blue-grey;
+  }
+
+  .card_img {
+    border-bottom: 2px solid color("blue-grey", "base");
+  }
 }
 
-.lif_img {
-  border-bottom: 2px solid color("blue-grey", "base");
+#lif {
+  outline: 2px solid color("blue-grey", "base");
 }
 
 .empyrion {
-  @extend .brown;
+  .card_top_line, .progress, .determinate, .btn-large {
+    @extend .brown;
+  }
+
+  .card_img {
+    border-bottom: 2px solid color("brown", "base");
+  }
 }
 
-.empyrion_img {
-  border-bottom: 2px solid color("brown", "base");
+#empyrion {
+  outline: 2px solid color("brown", "base");
 }
 
 /* Parallax page */
@@ -132,23 +180,21 @@
 }
 
 .section {
-  height: 600px;
-}
+  height: 750px;
 
-.section p {
-  @extend .grey-text, .text-darken-3, .lighten-3;
-}
-
-.nav_games {
-  display: none;
+  p {
+    @extend .grey-text, .text-darken-3, .lighten-3;
+  }
 }
 
 .navigation_bar {
   position: fixed;
+  right: 0;
   top: 50%;
-  right: 50px;
   margin-top: -260px;
   z-index: 1;
+  width: 60px;
+  border-radius: 40px;
 }
 
 .nav_link {
@@ -158,17 +204,15 @@
   border-radius: 40px;
   margin-top: 25px;
   cursor: pointer;
-}
+  margin-left: auto;
+  margin-right: auto;
 
-.minecraft_nav:hover {
-  transform: scale(1.2);
-}
-
-.nav_link img {
-  width: 100%;
-  height: auto;
-  border-radius: 40px;
-  overflow: hidden;
+  img {
+    width: 100%;
+    height: auto;
+    border-radius: 40px;
+    overflow: hidden;
+  }
 }
 
 /* Server list page */
@@ -181,10 +225,10 @@
   display: flex;
   flex-flow: row wrap;
   justify-content: space-between;
-}
 
-.server_list_page .server_card {
-  margin: 15px;
+  .server_card {
+    margin: 15px;
+  }
 }
 
 .footer_img {
@@ -192,10 +236,24 @@
   width: 35px;
   height: 35px;
   margin-top: 7px;
+
+  img {
+    width: 100%;
+    height: auto;
+    background-size: cover;
+  }
 }
 
-.footer_img img {
-  width: 100%;
-  height: auto;
-  background-size: cover;
+#server_ip {
+  float: left;
+  width: 60%;
+}
+
+.server_ip_btn {
+  float: left;
+}
+
+.slider {
+  float: left;
+  width: 475px;
 }

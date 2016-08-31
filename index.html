@@ -11,18 +11,18 @@
 </head>
 <body>
 
-<div class="navigation_bar">
-    <div class="nav_link"><a href="#minecraft"><img class="responsive-img" src="css/img/nav_icons/Minecraft_nav.png"></a></div>
-    <div class="nav_link"><img class="responsive-img" src="css/img/nav_icons/Rust_nav.jpg"></div>
-    <div class="nav_link"><img class="responsive-img" src="css/img/nav_icons/Starbound_nav.png"></div>
-    <div class="nav_link"><img class="responsive-img" src="css/img/nav_icons/Lif_nav.png"></div>
-    <div class="nav_link"><img class="responsive-img" src="css/img/nav_icons/Grav_nav.jpg"></div>
-    <div class="nav_link"><img class="responsive-img" src="css/img/nav_icons/Ark_nav.png"></div>
-    <div class="nav_link"><img class="responsive-img" src="css/img/nav_icons/7d_nav.jpg"></div>
-    <div class="nav_link"></div>
-</div>
+<ul class="navigation_bar table-of-contents">
+    <li class="nav_link"><a href="#minecraft"><img class="responsive-img" src="css/img/nav_icons/Minecraft_nav.png"></a></li>
+    <li class="nav_link"><a href="#rust"><img class="responsive-img" src="css/img/nav_icons/Rust_nav.png"></a></li>
+    <li class="nav_link"><a href="#starbound"><img class="responsive-img" src="css/img/nav_icons/Starbound_nav.png"></a></li>
+    <li class="nav_link"><a href="#lif"><img class="responsive-img" src="css/img/nav_icons/Lif_nav.png"></a></li>
+    <li class="nav_link"><a href="#grav"><img class="responsive-img" src="css/img/nav_icons/Grav_nav.png"></a></li>
+    <li class="nav_link"><a href="#ark"><img class="responsive-img" src="css/img/nav_icons/Ark_nav.png"></a></li>
+    <li class="nav_link"><a href="#dtd"><img class="responsive-img" src="css/img/nav_icons/7d_nav.png"></a></li>
+    <li class="nav_link"><a href="#empyrion"><img class="responsive-img" src="#"></a></li>
+</ul>
 
-<nav id="begin">
+<nav id="begin" class="scrollspy">
     <div class="nav-wrapper">
         <ul id="dropdown1" class="dropdown-content">
             <li><a href="#>">О проекте</a></li>
@@ -66,14 +66,14 @@
     </div>
 </div>
 
-<div class="parallax-container">
+<div id="minecraft" class="parallax-container scrollspy">
     <div class="parallax"><img src="css/img/parallax/minecraft_vanilla_2.jpg"></div>
 
         <div class="server_list">
-            <div class="server_card">
+            <div class="server_card minecraft">
                 <div class="server_status online tooltipped" data-position="top" data-delay="50" data-tooltip="Сервер онлайн"></div>
-                <div class="card_top_line minecraft">Minecraft Classic</div>
-                <div class="card_img minecraft_img"><img src="css/img/cards/minecraft_vanilla_1.jpg"></div>
+                <div class="card_top_line">Minecraft Classic</div>
+                <div class="card_img"><img src="css/img/cards/minecraft_vanilla_1.jpg"></div>
                 <div class="card_bottom">
                     <div class="card_players">7/10</div>
                     <div class="progress card_progress">
@@ -83,9 +83,9 @@
                 </div>
             </div>
 
-            <div class="server_card">
+            <div class="server_card minecraft">
                 <div class="server_status offline tooltipped" data-position="top" data-delay="50" data-tooltip="Сервер оффлайн"></div>
-                <div class="card_top_line minecraft">Minecraft Techno</div>
+                <div class="card_top_line">Minecraft Techno</div>
                 <div class="card_img minecraft_img"><img src="css/img/cards/minecraft_vanilla_2.jpg"></div>
                 <div class="card_bottom">
                     <div class="card_players">7/10</div>
@@ -96,10 +96,10 @@
                 </div>
             </div>
 
-            <div class="server_card">
+            <div class="server_card minecraft">
                 <div class="server_status online tooltipped" data-position="top" data-delay="50" data-tooltip="Сервер онлайн"></div>
-                <div class="card_top_line minecraft">Minecraft Hard-Techno</div>
-                <div class="card_img minecraft_img"><img src="css/img/cards/minecraft_techno_1.jpg"></div>
+                <div class="card_top_line">Minecraft Hard-Techno</div>
+                <div class="card_img"><img src="css/img/cards/minecraft_techno_1.jpg"></div>
                 <div class="card_bottom">
                     <div class="card_players">7/10</div>
                     <div class="progress card_progress">
@@ -110,30 +110,69 @@
         </div>
     </div>
 </div>
-<div id="minecraft" class="section scrollspy white">
+<div class="section white">
     <div class="row container">
-        <div class="col l8">
-            <h2 class="header">Как начать играть?</h2>
-            <p>1) Необходимо <a href="#">зарегистрироваться</a></p>
-            <p>2) <a href="#">Проверьте версию Java</a> установленную на вашем компьютере. Для гарантированной работы клиента необходима версия не ниже <span class="green-text">8u101</span>.</p>
-            <p>3) <a href="#">Скачайте Лаунчер</a>, запустите его, введите в левой части лаунчера свои Логин и Пароль от форума GameComa.ru.</p>
-            <h2 class="header">А что с донатом?</h2>
-            <p>Доната нет. Совсем. Есть список запрещенных вещей, с которым можно ознакомиться <a href="#">здесь.</a></p>
+        <div class="col l12 center"><h2 class="header">Minecraft</h2></div>
+        <div class="col l7">
+            <p>Minecraft (от  англ. mine «шахта», «добывать» и англ. craft «ремесло») — компьютерная инди-игра в жанре песочницы с элементами симулятора выживания и открытым миром, разработанная шведским программистом Маркусом Перссоном, известным также как «Notch» (англ. Нотч) и позже выпускаемая основанной Перссоном компанией Mojang. Портированием и поддержкой версий игры для игровых консолей занималась британская компания 4J Studios. В 2014 году компания Mojang и права на Minecraft были приобретены американской компанией Microsoft за 2,5 миллиарда долларов США</p>
+            <p>Minecraft предоставляет в распоряжение игрока трёхмерный процедурно генерируемый мир, полностью состоящий из кубических блоков, и дает возможность свободно перестраивать его, создавая из блоков сложные сооружения — эта особенность игры делает Minecraft схожей с конструктором LEGO. Игра не ставит перед игроком каких-либо однозначных целей, но предлагает ему множество возможностей и занятий: так, игрок может обследовать мир, создавать разнообразные сооружения и предметы, сражаться с различными противниками.</p>
+        </div>
+        <div class="col l5">
+            <div class="slider">
+                <ul id="lightSlider">
+                    <li data-thumb="http://sachinchoolur.github.io/lightslider/img/thumb/cS-1.jpg">
+                        <img src="http://sachinchoolur.github.io/lightslider/img/cS-1.jpg" />
+                    </li>
+                    <li data-thumb="http://sachinchoolur.github.io/lightslider/img/thumb/cS-2.jpg">
+                        <img src="http://sachinchoolur.github.io/lightslider/img/cS-2.jpg" />
+                    </li>
+                    <li data-thumb="http://sachinchoolur.github.io/lightslider/img/thumb/cS-3.jpg">
+                        <img src="http://sachinchoolur.github.io/lightslider/img/cS-3.jpg" />
+                    </li>
+                    <li data-thumb="http://sachinchoolur.github.io/lightslider/img/thumb/cS-4.jpg">
+                        <img src="http://sachinchoolur.github.io/lightslider/img/cS-4.jpg" />
+                    </li>
+                    <li data-thumb="http://sachinchoolur.github.io/lightslider/img/thumb/cS-5.jpg">
+                        <img src="http://sachinchoolur.github.io/lightslider/img/cS-5.jpg" />
+                    </li>
+                    <li data-thumb="http://sachinchoolur.github.io/lightslider/img/thumb/cS-6.jpg">
+                        <img src="http://sachinchoolur.github.io/lightslider/img/cS-6.jpg" />
+                    </li>
+                    <li data-thumb="http://sachinchoolur.github.io/lightslider/img/thumb/cS-7.jpg">
+                        <img src="http://sachinchoolur.github.io/lightslider/img/cS-7.jpg" />
+                    </li>
+                    <li data-thumb="http://sachinchoolur.github.io/lightslider/img/thumb/cS-8.jpg">
+                        <img src="http://sachinchoolur.github.io/lightslider/img/cS-8.jpg" />
+                    </li>
+                    <li data-thumb="http://sachinchoolur.github.io/lightslider/img/thumb/cS-9.jpg">
+                        <img src="http://sachinchoolur.github.io/lightslider/img/cS-9.jpg" />
+                    </li>
+                    <li data-thumb="http://sachinchoolur.github.io/lightslider/img/thumb/cS-10.jpg">
+                        <img src="http://sachinchoolur.github.io/lightslider/img/cS-10.jpg" />
+                    </li>
+                    <li data-thumb="http://sachinchoolur.github.io/lightslider/img/thumb/cS-11.jpg">
+                        <img src="http://sachinchoolur.github.io/lightslider/img/cS-12.jpg" />
+                    </li>
+                    <li data-thumb="http://sachinchoolur.github.io/lightslider/img/thumb/cS-13.jpg">
+                        <img src="http://sachinchoolur.github.io/lightslider/img/cS-13.jpg" />
+                    </li>
+                </ul>
+            </div>
         </div>
     </div>
 </div>
 
-<div class="parallax-container">
+<div id="rust" class="parallax-container scrollspy">
     <div class="parallax"><img src="css/img/parallax/rust_2.jpg"></div>
     <div class="server_list">
-        <div class="server_card">
+        <div class="server_card rust">
             <div class="server_status online tooltipped" data-position="top" data-delay="50" data-tooltip="Сервер онлайн"></div>
-            <div class="card_top_line rust">Rust</div>
-            <div class="card_img rust_img"><img src="css/img/cards/rust_1.jpg"></div>
+            <div class="card_top_line">Rust</div>
+            <div class="card_img"><img src="css/img/cards/rust_1.jpg"></div>
             <div class="card_bottom">
                 <div class="card_players">7/10</div>
-                <div class="progress rust lighten-4">
-                    <div class="determinate rust" style="width: 70%"></div>
+                <div class="progress lighten-4">
+                    <div class="determinate" style="width: 70%"></div>
                 </div>
                 <div class="btn-large waves-block rust">Играть</div>
             </div>
@@ -147,19 +186,19 @@
     </div>
 </div>
 
-<div class="parallax-container">
+<div id="starbound" class="parallax-container scrollspy">
     <div class="parallax"><img src="css/img/parallax/starbound_1.jpg"></div>
     <div class="server_list">
-        <div class="server_card">
+        <div class="server_card starbound">
             <div class="server_status online tooltipped" data-position="top" data-delay="50" data-tooltip="Сервер онлайн"></div>
-            <div class="card_top_line starbound">Starbound</div>
-            <div class="card_img starbound_img"><img src="css/img/cards/starbound_1.jpg"></div>
+            <div class="card_top_line">Starbound</div>
+            <div class="card_img"><img src="css/img/cards/starbound_1.jpg"></div>
             <div class="card_bottom">
                 <div class="card_players">7/10</div>
-                <div class="progress starbound lighten-4">
-                    <div class="determinate starbound" style="width: 70%"></div>
+                <div class="progress lighten-4">
+                    <div class="determinate" style="width: 70%"></div>
                 </div>
-                <div class="btn-large waves-block starbound">Играть</div>
+                <div class="btn-large waves-block">Играть</div>
             </div>
         </div>
     </div>
@@ -171,19 +210,19 @@
     </div>
 </div>
 
-<div class="parallax-container">
+<div id="lif" class="parallax-container scrollspy">
     <div class="parallax"><img src="css/img/parallax/lif_1.jpg"></div>
     <div class="server_list">
-        <div class="server_card">
+        <div class="server_card lif">
             <div class="server_status online tooltipped" data-position="top" data-delay="50" data-tooltip="Сервер онлайн"></div>
-            <div class="card_top_line lif">Life Is Feudal</div>
-            <div class="card_img lif_img"><img src="css/img/cards/lif_2.png"></div>
+            <div class="card_top_line">Life Is Feudal</div>
+            <div class="card_img"><img src="css/img/cards/lif_2.png"></div>
             <div class="card_bottom">
                 <div class="card_players">7/10</div>
-                <div class="progress lif lighten-4">
-                    <div class="determinate lif" style="width: 70%"></div>
+                <div class="progress lighten-4">
+                    <div class="determinate" style="width: 70%"></div>
                 </div>
-                <div class="btn-large waves-block lif">Играть</div>
+                <div class="btn-large waves-block">Играть</div>
             </div>
         </div>
     </div>
@@ -195,19 +234,19 @@
     </div>
 </div>
 
-<div class="parallax-container">
+<div id="grav" class="parallax-container scrollspy">
     <div class="parallax"><img src="css/img/parallax/grav_1.jpg"></div>
     <div class="server_list">
-        <div class="server_card center">
+        <div class="server_card grav">
             <div class="server_status online tooltipped" data-position="top" data-delay="50" data-tooltip="Сервер онлайн"></div>
-            <div class="card_top_line grav">GRAV</div>
-            <div class="card_img grav_img"><img src="css/img/cards/grav_2.jpg"></div>
+            <div class="card_top_line">GRAV</div>
+            <div class="card_img"><img src="css/img/cards/grav_2.jpg"></div>
             <div class="card_bottom">
                 <div class="card_players">7/10</div>
-                <div class="progress grav lighten-4">
-                    <div class="determinate grav" style="width: 70%"></div>
+                <div class="progress lighten-4">
+                    <div class="determinate" style="width: 70%"></div>
                 </div>
-                <div class="btn-large waves-block grav">Играть</div>
+                <div class="btn-large waves-block">Играть</div>
             </div>
         </div>
     </div>
@@ -219,19 +258,19 @@
     </div>
 </div>
 
-<div class="parallax-container">
+<div id="ark" class="parallax-container scrollspy">
     <div class="parallax"><img src="css/img/parallax/ark_1.jpg"></div>
     <div class="server_list">
-        <div class="server_card center">
+        <div class="server_card ark">
             <div class="server_status online tooltipped" data-position="top" data-delay="50" data-tooltip="Сервер онлайн"></div>
-            <div class="card_top_line ark">ARK</div>
-            <div class="card_img ark_img"><img src="css/img/cards/ark_1.jpg"></div>
+            <div class="card_top_line">ARK</div>
+            <div class="card_img"><img src="css/img/cards/ark_1.jpg"></div>
             <div class="card_bottom">
                 <div class="card_players">7/10</div>
-                <div class="progress ark lighten-4">
-                    <div class="determinate ark" style="width: 70%"></div>
+                <div class="progress lighten-4">
+                    <div class="determinate" style="width: 70%"></div>
                 </div>
-                <div class="btn-large waves-block ark">Играть</div>
+                <div class="btn-large waves-block">Играть</div>
             </div>
         </div>
     </div>
@@ -243,19 +282,19 @@
     </div>
 </div>
 
-<div class="parallax-container">
+<div id="dtd" class="parallax-container scrollspy">
     <div class="parallax"><img src="css/img/parallax/7D2D_1.jpg"></div>
     <div class="server_list">
-        <div class="server_card center">
+        <div class="server_card dtd">
             <div class="server_status online tooltipped" data-position="top" data-delay="50" data-tooltip="Сервер онлайн"></div>
-            <div class="card_top_line dtd">7 days to die</div>
-            <div class="card_img dtd_img"><img src="css/img/cards/ark_1.jpg"></div>
+            <div class="card_top_line">7 days to die</div>
+            <div class="card_img"><img src="css/img/cards/ark_1.jpg"></div>
             <div class="card_bottom">
                 <div class="card_players">7/10</div>
-                <div class="progress dtd lighten-4">
-                    <div class="determinate dtd" style="width: 70%"></div>
+                <div class="progress lighten-4">
+                    <div class="determinate" style="width: 70%"></div>
                 </div>
-                <div class="btn-large waves-block dtd">Играть</div>
+                <div class="btn-large waves-block">Играть</div>
             </div>
         </div>
     </div>
@@ -267,19 +306,19 @@
     </div>
 </div>
 
-<div class="parallax-container">
+<div id="empyrion" class="parallax-container scrollspy">
     <div class="parallax"><img src="css/img/parallax/emp_1.jpg"></div>
     <div class="server_list">
-        <div class="server_card center">
+        <div class="server_card empyrion">
             <div class="server_status online tooltipped" data-position="top" data-delay="50" data-tooltip="Сервер онлайн"></div>
-            <div class="card_top_line empyrion">Empyrion</div>
-            <div class="card_img empyrion_img"><img src="css/img/cards/emp_2.jpg"></div>
+            <div class="card_top_line">Empyrion</div>
+            <div class="card_img"><img src="css/img/cards/emp_2.jpg"></div>
             <div class="card_bottom">
                 <div class="card_players">7/10</div>
-                <div class="progress empyrion lighten-4">
-                    <div class="determinate empyrion" style="width: 70%"></div>
+                <div class="progress lighten-4">
+                    <div class="determinate" style="width: 70%"></div>
                 </div>
-                <div class="btn-large waves-block empyrion">Играть</div>
+                <div class="btn-large waves-block">Играть</div>
             </div>
         </div>
     </div>
@@ -323,6 +362,8 @@
 <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
 <!--<script src="js/jquery-3.0.0.min.js"></script>-->
 <script src="js/materialize.min.js"></script>
+<script src="js/lightslider.min.js"></script>
+<script src="js/lightgallery.js"></script>
 <script src="js/scripts.js"></script>
 
 </body>
