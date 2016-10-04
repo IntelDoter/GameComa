@@ -11,6 +11,13 @@
 
     &:hover {
       transform: scale(1.5);
+
+      &:after {
+        position: absolute;
+        left: -70px;
+        color: #000;
+        //content:"Minecraft";
+      }
     }
     &.active {
       transform: scale(1.5);

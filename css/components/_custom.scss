@@ -42,6 +42,26 @@
 
 .online {
   @extend .green, .lighten-1;
+
+  &:after {
+    content: "";
+    position: absolute;
+    left: 2px;
+    top: 2px;
+    width: 21px;
+    height: 21px;
+    border-radius: 21px;
+    border: 1px solid color("green", "lighten-1");
+    animation: online 2.5s ease-in-out infinite;
+    @keyframes online {
+      from {
+        transform: scale(1);
+      }
+      to {
+        transform: scale(1.5);
+      }
+    }
+  }
 }
 
 .offline {
@@ -51,12 +71,32 @@
 .server_status {
   width: 35px;
   height: 35px;
-  border-radius: 40px;
+  border-radius: 35px;
   background: #fff;
   border: 5px solid #fff;
   position: absolute;
   right: 20px;
   top: 107px;
+  }
+
+.play_action {
+  width: 100%;
+  padding: 0 15px;
+  height: 225px;
+  position: relative;
+  z-index: 3;
+  background: #fff;
+  display: none;
+}
+
+.close_action {
+  position: absolute;
+  cursor: pointer;
+  z-index: 4;
+  right: 5px;
+  background: red;
+  width: 12px;
+  height: 12px;
 }
 
 /* Custom colors */
@@ -128,7 +168,7 @@
 }
 
 #ark {
-  outline: 2px solid color("teal", "amber");
+  outline: 2px solid color("amber", "base");
 }
 
 .dtd {
@@ -189,20 +229,21 @@
 
 .navigation_bar {
   position: fixed;
-  right: 0;
+  right: 10px;
   top: 50%;
-  margin-top: -260px;
+  margin-top: -200px;
   z-index: 1;
   width: 60px;
   border-radius: 40px;
+  @extend .white, .z-depth-2;
 }
 
 .nav_link {
   position: relative;
-  width: 40px;
-  height: 40px;
-  border-radius: 40px;
-  margin-top: 25px;
+  width: 30px;
+  height: 30px;
+  border-radius: 30px;
+  margin-top: 20px;
   cursor: pointer;
   margin-left: auto;
   margin-right: auto;
@@ -253,7 +294,40 @@
   float: left;
 }
 
+/* slider */
+
 .slider {
-  float: left;
-  width: 475px;
+  width: 100%;
+  height: auto;
+}
+
+.slider {
+  position: relative;
+
+  .back, .next {
+    position: absolute;
+    top: 55%;
+    margin-top: -32px;
+    width: 32px;
+    height: 32px;
+    cursor: pointer;
+  }
+
+  .back {
+    left: 15px;
+    background: url(img/slider/controls.png);
+  }
+
+  .next {
+    right: 15px;
+    background: url(img/slider/controls.png) -43px 0;
+  }
+
+  .slide {
+    display: none;
+  }
+
+  .current {
+    display: block;
+  }
 }
