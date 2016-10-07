@@ -28,7 +28,7 @@
 .materialize-red-text.text-lighten-2 {
   color: #ee6e73 !important; }
 
-.materialize-red.lighten-1, .materialize-red.online {
+.materialize-red.lighten-1, .materialize-red.online, .materialize-red.close_action {
   background-color: #ea454b !important; }
 
 .materialize-red-text.text-lighten-1 {
@@ -58,85 +58,85 @@
 .materialize-red-text.text-darken-4 {
   color: #8b1014 !important; }
 
-.red, .offline, .rust .card_top_line, .rust .progress, .rust .determinate, .rust .btn-large, .header_fixed {
+.red, .offline, .close_action, .rust .card_top_line, .rust .progress, .rust .determinate, .rust .btn-large, .header_fixed {
   background-color: #F44336 !important; }
 
 .red-text {
   color: #F44336 !important; }
 
-.red.lighten-5, .lighten-5.offline, .rust .lighten-5.card_top_line, .rust .lighten-5.progress, .rust .lighten-5.determinate, .rust .lighten-5.btn-large, .lighten-5.header_fixed {
+.red.lighten-5, .lighten-5.offline, .lighten-5.close_action, .rust .lighten-5.card_top_line, .rust .lighten-5.progress, .rust .lighten-5.determinate, .rust .lighten-5.btn-large, .lighten-5.header_fixed {
   background-color: #FFEBEE !important; }
 
 .red-text.text-lighten-5 {
   color: #FFEBEE !important; }
 
-.red.lighten-4, .lighten-4.offline, .rust .lighten-4.card_top_line, .rust .lighten-4.progress, .rust .lighten-4.determinate, .rust .lighten-4.btn-large, .lighten-4.header_fixed {
+.red.lighten-4, .lighten-4.offline, .lighten-4.close_action, .rust .lighten-4.card_top_line, .rust .lighten-4.progress, .rust .lighten-4.determinate, .rust .lighten-4.btn-large, .lighten-4.header_fixed {
   background-color: #FFCDD2 !important; }
 
 .red-text.text-lighten-4 {
   color: #FFCDD2 !important; }
 
-.red.lighten-3, .lighten-3.offline, .section p.offline, .rust .lighten-3.card_top_line, .rust .section p.card_top_line, .section .rust p.card_top_line, .rust .lighten-3.progress, .rust .section p.progress, .section .rust p.progress, .rust .lighten-3.determinate, .rust .section p.determinate, .section .rust p.determinate, .rust .lighten-3.btn-large, .rust .section p.btn-large, .section .rust p.btn-large, .section p.red, .section p.header_fixed, .lighten-3.header_fixed {
+.red.lighten-3, .lighten-3.offline, .section p.offline, .lighten-3.close_action, .section p.close_action, .rust .lighten-3.card_top_line, .rust .section p.card_top_line, .section .rust p.card_top_line, .rust .lighten-3.progress, .rust .section p.progress, .section .rust p.progress, .rust .lighten-3.determinate, .rust .section p.determinate, .section .rust p.determinate, .rust .lighten-3.btn-large, .rust .section p.btn-large, .section .rust p.btn-large, .section p.red, .section p.header_fixed, .lighten-3.header_fixed {
   background-color: #EF9A9A !important; }
 
 .red-text.text-lighten-3 {
   color: #EF9A9A !important; }
 
-.red.lighten-2, .lighten-2.offline, .rust .lighten-2.card_top_line, .rust .card_top_line.header_fixed, .rust .lighten-2.progress, .rust .progress.header_fixed, .rust .lighten-2.determinate, .rust .determinate.header_fixed, .rust .lighten-2.btn-large, .rust .btn-large.header_fixed, .header_fixed {
+.red.lighten-2, .lighten-2.offline, .lighten-2.close_action, .rust .lighten-2.card_top_line, .rust .card_top_line.header_fixed, .rust .lighten-2.progress, .rust .progress.header_fixed, .rust .lighten-2.determinate, .rust .determinate.header_fixed, .rust .lighten-2.btn-large, .rust .btn-large.header_fixed, .header_fixed {
   background-color: #E57373 !important; }
 
 .red-text.text-lighten-2 {
   color: #E57373 !important; }
 
-.red.lighten-1, .red.online, .online.offline, .rust .online.card_top_line, .rust .online.progress, .rust .online.determinate, .rust .online.btn-large, .online.header_fixed, .lighten-1.offline, .rust .lighten-1.card_top_line, .rust .lighten-1.progress, .rust .lighten-1.determinate, .rust .lighten-1.btn-large, .lighten-1.header_fixed {
+.red.lighten-1, .red.online, .online.offline, .rust .online.card_top_line, .rust .online.progress, .rust .online.determinate, .rust .online.btn-large, .online.header_fixed, .lighten-1.offline, .close_action, .rust .lighten-1.card_top_line, .rust .card_top_line.close_action, .rust .lighten-1.progress, .rust .progress.close_action, .rust .lighten-1.determinate, .rust .determinate.close_action, .rust .lighten-1.btn-large, .rust .btn-large.close_action, .lighten-1.header_fixed {
   background-color: #EF5350 !important; }
 
 .red-text.text-lighten-1 {
   color: #EF5350 !important; }
 
-.red.darken-1, .darken-1.offline, .rust .darken-1.card_top_line, .rust .darken-1.progress, .rust .darken-1.determinate, .rust .darken-1.btn-large, .darken-1.header_fixed {
+.red.darken-1, .darken-1.offline, .darken-1.close_action, .rust .darken-1.card_top_line, .rust .darken-1.progress, .rust .darken-1.determinate, .rust .darken-1.btn-large, .darken-1.header_fixed {
   background-color: #E53935 !important; }
 
 .red-text.text-darken-1 {
   color: #E53935 !important; }
 
-.red.darken-2, .darken-2.offline, .rust .darken-2.card_top_line, .rust .darken-2.progress, .rust .darken-2.determinate, .rust .darken-2.btn-large, .darken-2.header_fixed {
+.red.darken-2, .darken-2.offline, .darken-2.close_action, .rust .darken-2.card_top_line, .rust .darken-2.progress, .rust .darken-2.determinate, .rust .darken-2.btn-large, .darken-2.header_fixed {
   background-color: #D32F2F !important; }
 
 .red-text.text-darken-2 {
   color: #D32F2F !important; }
 
-.red.darken-3, .darken-3.offline, .rust .darken-3.card_top_line, .rust .darken-3.progress, .rust .darken-3.determinate, .rust .darken-3.btn-large, .darken-3.header_fixed {
+.red.darken-3, .darken-3.offline, .darken-3.close_action, .rust .darken-3.card_top_line, .rust .darken-3.progress, .rust .darken-3.determinate, .rust .darken-3.btn-large, .darken-3.header_fixed {
   background-color: #C62828 !important; }
 
 .red-text.text-darken-3, .section p.red-text {
   color: #C62828 !important; }
 
-.red.darken-4, .darken-4.offline, .rust .darken-4.card_top_line, .rust .darken-4.progress, .rust .darken-4.determinate, .rust .darken-4.btn-large, .darken-4.header_fixed {
+.red.darken-4, .darken-4.offline, .darken-4.close_action, .rust .darken-4.card_top_line, .rust .darken-4.progress, .rust .darken-4.determinate, .rust .darken-4.btn-large, .darken-4.header_fixed {
   background-color: #B71C1C !important; }
 
 .red-text.text-darken-4 {
   color: #B71C1C !important; }
 
-.red.accent-1, .accent-1.offline, .rust .accent-1.card_top_line, .rust .accent-1.progress, .rust .accent-1.determinate, .rust .accent-1.btn-large, .accent-1.header_fixed {
+.red.accent-1, .accent-1.offline, .accent-1.close_action, .rust .accent-1.card_top_line, .rust .accent-1.progress, .rust .accent-1.determinate, .rust .accent-1.btn-large, .accent-1.header_fixed {
   background-color: #FF8A80 !important; }
 
 .red-text.text-accent-1 {
   color: #FF8A80 !important; }
 
-.red.accent-2, .offline, .rust .accent-2.card_top_line, .rust .card_top_line.offline, .rust .accent-2.progress, .rust .progress.offline, .rust .accent-2.determinate, .rust .determinate.offline, .rust .accent-2.btn-large, .rust .btn-large.offline, .accent-2.header_fixed {
+.red.accent-2, .offline, .accent-2.close_action, .rust .accent-2.card_top_line, .rust .card_top_line.offline, .rust .accent-2.progress, .rust .progress.offline, .rust .accent-2.determinate, .rust .determinate.offline, .rust .accent-2.btn-large, .rust .btn-large.offline, .accent-2.header_fixed {
   background-color: #FF5252 !important; }
 
 .red-text.text-accent-2 {
   color: #FF5252 !important; }
 
-.red.accent-3, .accent-3.offline, .rust .accent-3.card_top_line, .rust .accent-3.progress, .rust .accent-3.determinate, .rust .accent-3.btn-large, .accent-3.header_fixed {
+.red.accent-3, .accent-3.offline, .accent-3.close_action, .rust .accent-3.card_top_line, .rust .accent-3.progress, .rust .accent-3.determinate, .rust .accent-3.btn-large, .accent-3.header_fixed {
   background-color: #FF1744 !important; }
 
 .red-text.text-accent-3 {
   color: #FF1744 !important; }
 
-.red.accent-4, .accent-4.offline, .rust .accent-4.card_top_line, .rust .accent-4.progress, .rust .accent-4.determinate, .rust .accent-4.btn-large, .accent-4.header_fixed {
+.red.accent-4, .accent-4.offline, .accent-4.close_action, .rust .accent-4.card_top_line, .rust .accent-4.progress, .rust .accent-4.determinate, .rust .accent-4.btn-large, .accent-4.header_fixed {
   background-color: #D50000 !important; }
 
 .red-text.text-accent-4 {
@@ -172,7 +172,7 @@
 .pink-text.text-lighten-2 {
   color: #f06292 !important; }
 
-.pink.lighten-1, .pink.online {
+.pink.lighten-1, .pink.online, .pink.close_action {
   background-color: #ec407a !important; }
 
 .pink-text.text-lighten-1 {
@@ -256,7 +256,7 @@
 .purple-text.text-lighten-2 {
   color: #ba68c8 !important; }
 
-.purple.lighten-1, .purple.online {
+.purple.lighten-1, .purple.online, .purple.close_action {
   background-color: #ab47bc !important; }
 
 .purple-text.text-lighten-1 {
@@ -340,7 +340,7 @@
 .deep-purple-text.text-lighten-2 {
   color: #9575cd !important; }
 
-.deep-purple.lighten-1, .deep-purple.online {
+.deep-purple.lighten-1, .deep-purple.online, .deep-purple.close_action {
   background-color: #7e57c2 !important; }
 
 .deep-purple-text.text-lighten-1 {
@@ -424,7 +424,7 @@
 .indigo-text.text-lighten-2 {
   color: #7986cb !important; }
 
-.indigo.lighten-1, .indigo.online {
+.indigo.lighten-1, .indigo.online, .indigo.close_action {
   background-color: #5c6bc0 !important; }
 
 .indigo-text.text-lighten-1 {
@@ -508,7 +508,7 @@
 .blue-text.text-lighten-2 {
   color: #64B5F6 !important; }
 
-.blue.lighten-1, .blue.online {
+.blue.lighten-1, .blue.online, .blue.close_action {
   background-color: #42A5F5 !important; }
 
 .blue-text.text-lighten-1 {
@@ -592,7 +592,7 @@
 .light-blue-text.text-lighten-2 {
   color: #4fc3f7 !important; }
 
-.light-blue.lighten-1, .light-blue.online {
+.light-blue.lighten-1, .light-blue.online, .light-blue.close_action {
   background-color: #29b6f6 !important; }
 
 .light-blue-text.text-lighten-1 {
@@ -676,7 +676,7 @@
 .cyan-text.text-lighten-2 {
   color: #4dd0e1 !important; }
 
-.cyan.lighten-1, .cyan.online, .starbound .online.card_top_line, .starbound .online.progress, .starbound .online.determinate, .starbound .online.btn-large, .starbound .lighten-1.card_top_line, .starbound .lighten-1.progress, .starbound .lighten-1.determinate, .starbound .lighten-1.btn-large {
+.cyan.lighten-1, .cyan.online, .starbound .online.card_top_line, .starbound .online.progress, .starbound .online.determinate, .starbound .online.btn-large, .cyan.close_action, .starbound .close_action.card_top_line, .starbound .close_action.progress, .starbound .close_action.determinate, .starbound .close_action.btn-large, .starbound .lighten-1.card_top_line, .starbound .lighten-1.progress, .starbound .lighten-1.determinate, .starbound .lighten-1.btn-large {
   background-color: #26c6da !important; }
 
 .cyan-text.text-lighten-1 {
@@ -760,7 +760,7 @@
 .teal-text.text-lighten-2 {
   color: #4db6ac !important; }
 
-.teal.lighten-1, .teal.online, .minecraft .online.card_top_line, .minecraft .online.progress, .minecraft .online.determinate, .minecraft .online.btn-large, .minecraft .lighten-1.card_top_line, .minecraft .lighten-1.progress, .minecraft .lighten-1.determinate, .minecraft .lighten-1.btn-large {
+.teal.lighten-1, .teal.online, .minecraft .online.card_top_line, .minecraft .online.progress, .minecraft .online.determinate, .minecraft .online.btn-large, .teal.close_action, .minecraft .close_action.card_top_line, .minecraft .close_action.progress, .minecraft .close_action.determinate, .minecraft .close_action.btn-large, .minecraft .lighten-1.card_top_line, .minecraft .lighten-1.progress, .minecraft .lighten-1.determinate, .minecraft .lighten-1.btn-large {
   background-color: #26a69a !important; }
 
 .teal-text.text-lighten-1 {
@@ -844,7 +844,7 @@
 .green-text.text-lighten-2 {
   color: #81C784 !important; }
 
-.green.lighten-1, .online, .grav .lighten-1.card_top_line, .grav .card_top_line.online, .grav .lighten-1.progress, .grav .progress.online, .grav .lighten-1.determinate, .grav .determinate.online, .grav .lighten-1.btn-large, .grav .btn-large.online {
+.green.lighten-1, .online, .green.close_action, .grav .close_action.card_top_line, .grav .close_action.progress, .grav .close_action.determinate, .grav .close_action.btn-large, .grav .lighten-1.card_top_line, .grav .card_top_line.online, .grav .lighten-1.progress, .grav .progress.online, .grav .lighten-1.determinate, .grav .determinate.online, .grav .lighten-1.btn-large, .grav .btn-large.online {
   background-color: #66BB6A !important; }
 
 .green-text.text-lighten-1 {
@@ -928,7 +928,7 @@
 .light-green-text.text-lighten-2 {
   color: #aed581 !important; }
 
-.light-green.lighten-1, .light-green.online {
+.light-green.lighten-1, .light-green.online, .light-green.close_action {
   background-color: #9ccc65 !important; }
 
 .light-green-text.text-lighten-1 {
@@ -1012,7 +1012,7 @@
 .lime-text.text-lighten-2 {
   color: #dce775 !important; }
 
-.lime.lighten-1, .lime.online {
+.lime.lighten-1, .lime.online, .lime.close_action {
   background-color: #d4e157 !important; }
 
 .lime-text.text-lighten-1 {
@@ -1096,7 +1096,7 @@
 .yellow-text.text-lighten-2 {
   color: #fff176 !important; }
 
-.yellow.lighten-1, .yellow.online {
+.yellow.lighten-1, .yellow.online, .yellow.close_action {
   background-color: #ffee58 !important; }
 
 .yellow-text.text-lighten-1 {
@@ -1180,7 +1180,7 @@
 .amber-text.text-lighten-2 {
   color: #ffd54f !important; }
 
-.amber.lighten-1, .amber.online, .ark .online.card_top_line, .ark .online.progress, .ark .online.determinate, .ark .online.btn-large, .ark .lighten-1.card_top_line, .ark .lighten-1.progress, .ark .lighten-1.determinate, .ark .lighten-1.btn-large {
+.amber.lighten-1, .amber.online, .ark .online.card_top_line, .ark .online.progress, .ark .online.determinate, .ark .online.btn-large, .amber.close_action, .ark .close_action.card_top_line, .ark .close_action.progress, .ark .close_action.determinate, .ark .close_action.btn-large, .ark .lighten-1.card_top_line, .ark .lighten-1.progress, .ark .lighten-1.determinate, .ark .lighten-1.btn-large {
   background-color: #ffca28 !important; }
 
 .amber-text.text-lighten-1 {
@@ -1264,7 +1264,7 @@
 .orange-text.text-lighten-2 {
   color: #ffb74d !important; }
 
-.orange.lighten-1, .orange.online {
+.orange.lighten-1, .orange.online, .orange.close_action {
   background-color: #ffa726 !important; }
 
 .orange-text.text-lighten-1 {
@@ -1348,7 +1348,7 @@
 .deep-orange-text.text-lighten-2 {
   color: #ff8a65 !important; }
 
-.deep-orange.lighten-1, .deep-orange.online {
+.deep-orange.lighten-1, .deep-orange.online, .deep-orange.close_action {
   background-color: #ff7043 !important; }
 
 .deep-orange-text.text-lighten-1 {
@@ -1432,7 +1432,7 @@
 .brown-text.text-lighten-2 {
   color: #a1887f !important; }
 
-.brown.lighten-1, .brown.online, .empyrion .online.card_top_line, .empyrion .online.progress, .empyrion .online.determinate, .empyrion .online.btn-large, .empyrion .lighten-1.card_top_line, .empyrion .lighten-1.progress, .empyrion .lighten-1.determinate, .empyrion .lighten-1.btn-large {
+.brown.lighten-1, .brown.online, .empyrion .online.card_top_line, .empyrion .online.progress, .empyrion .online.determinate, .empyrion .online.btn-large, .brown.close_action, .empyrion .close_action.card_top_line, .empyrion .close_action.progress, .empyrion .close_action.determinate, .empyrion .close_action.btn-large, .empyrion .lighten-1.card_top_line, .empyrion .lighten-1.progress, .empyrion .lighten-1.determinate, .empyrion .lighten-1.btn-large {
   background-color: #8d6e63 !important; }
 
 .brown-text.text-lighten-1 {
@@ -1492,7 +1492,7 @@
 .blue-grey-text.text-lighten-2 {
   color: #90a4ae !important; }
 
-.blue-grey.lighten-1, .blue-grey.online, .lif .online.card_top_line, .lif .online.progress, .lif .online.determinate, .lif .online.btn-large, .lif .lighten-1.card_top_line, .lif .lighten-1.progress, .lif .lighten-1.determinate, .lif .lighten-1.btn-large {
+.blue-grey.lighten-1, .blue-grey.online, .lif .online.card_top_line, .lif .online.progress, .lif .online.determinate, .lif .online.btn-large, .blue-grey.close_action, .lif .close_action.card_top_line, .lif .close_action.progress, .lif .close_action.determinate, .lif .close_action.btn-large, .lif .lighten-1.card_top_line, .lif .lighten-1.progress, .lif .lighten-1.determinate, .lif .lighten-1.btn-large {
   background-color: #78909c !important; }
 
 .blue-grey-text.text-lighten-1 {
@@ -1552,7 +1552,7 @@
 .grey-text.text-lighten-2, .section p.text-lighten-2, .news_project .text-lighten-2.card-title {
   color: #e0e0e0 !important; }
 
-.grey.lighten-1, .grey.online, .dtd .online.card_top_line, .dtd .online.progress, .dtd .online.determinate, .dtd .online.btn-large, .dtd .lighten-1.card_top_line, .dtd .lighten-1.progress, .dtd .lighten-1.determinate, .dtd .lighten-1.btn-large {
+.grey.lighten-1, .grey.online, .dtd .online.card_top_line, .dtd .online.progress, .dtd .online.determinate, .dtd .online.btn-large, .grey.close_action, .dtd .close_action.card_top_line, .dtd .close_action.progress, .dtd .close_action.determinate, .dtd .close_action.btn-large, .dtd .lighten-1.card_top_line, .dtd .lighten-1.progress, .dtd .lighten-1.determinate, .dtd .lighten-1.btn-large {
   background-color: #bdbdbd !important; }
 
 .grey-text.text-lighten-1, .section p.text-lighten-1, .news_project .text-lighten-1.card-title {
@@ -4959,7 +4959,8 @@ input[type=range]:focus::-ms-fill-upper {
     .table-of-contents a:hover:after {
       position: absolute;
       left: -70px;
-      color: #000; }
+      color: #000;
+      content: "Minecraft"; }
   .table-of-contents a.active {
     transform: scale(1.5); }
 
@@ -5424,12 +5425,15 @@ input[type=range]:focus::-ms-fill-upper {
 
 .server_card {
   height: 250px;
-  width: 250px;
-  position: relative; }
+  min-width: 250px;
+  position: relative;
+  overflow: hidden; }
 
 .card_top_line {
+  position: relative;
   width: 100%;
-  height: 25px; }
+  height: 25px;
+  z-index: 4; }
 
 .card_img {
   height: 98px;
@@ -5468,10 +5472,11 @@ input[type=range]:focus::-ms-fill-upper {
   right: 20px;
   top: 107px; }
 
+/* cards action */
 .play_action {
-  width: 100%;
-  padding: 0 15px;
+  width: 250px;
   height: 225px;
+  padding: 0 15px;
   position: relative;
   z-index: 3;
   background: #fff;
@@ -5480,11 +5485,13 @@ input[type=range]:focus::-ms-fill-upper {
 .close_action {
   position: absolute;
   cursor: pointer;
-  z-index: 4;
-  right: 5px;
-  background: red;
-  width: 12px;
-  height: 12px; }
+  z-index: 3;
+  right: -22px;
+  top: -30px;
+  width: 50px;
+  height: 50px;
+  border-radius: 25px;
+  text-align: center; }
 
 /* Custom colors */
 .minecraft .card_img {
@@ -5547,7 +5554,7 @@ input[type=range]:focus::-ms-fill-upper {
   right: 10px;
   top: 50%;
   margin-top: -200px;
-  z-index: 1;
+  z-index: 10;
   width: 60px;
   border-radius: 40px; }
 
@@ -5594,30 +5601,65 @@ input[type=range]:focus::-ms-fill-upper {
 .server_ip_btn {
   float: left; }
 
-/* slider */
-.slider {
-  width: 100%;
-  height: auto; }
+/* slider
 
 .slider {
-  position: relative; }
-  .slider .back, .slider .next {
+  width: 100%;
+  height: 200px;
+}
+
+.slider {
+  position: relative;
+
+  .back, .next {
     position: absolute;
     top: 55%;
     margin-top: -32px;
     width: 32px;
     height: 32px;
-    cursor: pointer; }
-  .slider .back {
+    cursor: pointer;
+  }
+
+  .back {
     left: 15px;
-    background: url(img/slider/controls.png); }
-  .slider .next {
+    background: url(img/slider/controls.png);
+  }
+
+  .next {
     right: 15px;
-    background: url(img/slider/controls.png) -43px 0; }
-  .slider .slide {
-    display: none; }
-  .slider .current {
-    display: block; }
+    background: url(img/slider/controls.png) -43px 0;
+  }
+
+  .slide {
+    display: none;
+  }
+
+  .current {
+    width: 100%;
+    height: auto;
+    display: block;
+  }
+}
+
+/* Section */
+.section_header {
+  margin: 0; }
+
+.X_icon {
+  color: #fff;
+  position: relative;
+  left: -5px;
+  bottom: -23px; }
+
+.section_buttons {
+  margin: 25px auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: center; }
+  .section_buttons .btn, .section_buttons .btn-large {
+    margin-right: 10px; }
+  .section_buttons .btn:last-child, .section_buttons .btn-large:last-child {
+    margin-right: 0; }
 
 .header_fixed {
   width: 100%;

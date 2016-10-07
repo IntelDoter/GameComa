@@ -14,14 +14,17 @@
 .server_card {
   @extend .white, .z-depth-2, .center;
   height: 250px;
-  width: 250px;
+  min-width: 250px;
   position: relative;
+  overflow: hidden;
 }
 
 .card_top_line {
   @extend .white-text;
+  position: relative;
   width: 100%;
-  height: 25px
+  height: 25px;
+  z-index: 4;
 }
 
 .card_img {
@@ -79,10 +82,12 @@
   top: 107px;
   }
 
+/* cards action */
+
 .play_action {
-  width: 100%;
-  padding: 0 15px;
+  width: 250px;
   height: 225px;
+  padding: 0 15px;
   position: relative;
   z-index: 3;
   background: #fff;
@@ -92,12 +97,16 @@
 .close_action {
   position: absolute;
   cursor: pointer;
-  z-index: 4;
-  right: 5px;
-  background: red;
-  width: 12px;
-  height: 12px;
+  z-index: 3;
+  right: -22px;
+  top: -30px;
+  @extend .red, .lighten-1;
+  width: 50px;
+  height: 50px;
+  border-radius: 25px;
+  text-align: center;
 }
+
 
 /* Custom colors */
 
@@ -232,7 +241,7 @@
   right: 10px;
   top: 50%;
   margin-top: -200px;
-  z-index: 1;
+  z-index: 10;
   width: 60px;
   border-radius: 40px;
   @extend .white, .z-depth-2;
@@ -294,11 +303,11 @@
   float: left;
 }
 
-/* slider */
+/* slider
 
 .slider {
   width: 100%;
-  height: auto;
+  height: 200px;
 }
 
 .slider {
@@ -328,6 +337,36 @@
   }
 
   .current {
+    width: 100%;
+    height: auto;
     display: block;
+  }
+}
+
+/* Section */
+
+.section_header {
+  margin: 0;
+}
+
+.X_icon {
+  color: #fff;
+  position: relative;
+  left: -5px;
+  bottom: -23px;
+}
+
+.section_buttons {
+  margin: 25px auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+
+  .btn {
+    margin-right: 10px;
+  }
+
+  .btn:last-child {
+    margin-right: 0;
   }
 }

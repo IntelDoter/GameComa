@@ -74,13 +74,14 @@
                 <div class="server_status online tooltipped" data-position="top" data-delay="50" data-tooltip="Сервер онлайн"></div>
                 <div class="card_top_line">Minecraft Classic</div>
                 <div class="play_action">
-                    <div class="close_action"></div>
+                    <div class="close_action"><div class="X_icon">X</div></div>
                     <h6>IP сервера</h6>
-                    <input id="ip" type="text" class="validate" value="192.168.1.1">
-                        <label for="ip"></label>
+                    <input id="minecraft_classic_ip" type="text" class="validate" value="192.168.1.1">
+                        <label for="minecraft_classic_ip"></label>
                     <h6>Алиас</h6>
-                    <input id="alias" type="text" class="validate" value="192.168.2.1">
-                    <label for="alias"></label>
+                    <input id="minecraft_classic_alias" type="text" class="validate" value="192.168.2.1">
+                    <label for="minecraft_classic_alias"></label>
+                    <a class="waves-effect waves-light btn">Steam</a>
                 </div>
                 <div class="card_img"><img src="css/img/cards/minecraft_vanilla_1.png"></div>
                 <div class="card_bottom">
@@ -95,6 +96,16 @@
             <div class="server_card minecraft">
                 <div class="server_status offline tooltipped" data-position="top" data-delay="50" data-tooltip="Сервер оффлайн"></div>
                 <div class="card_top_line">Minecraft Techno</div>
+                <div class="play_action">
+                    <div class="close_action"><div class="X_icon">X</div></div>
+                    <h6>IP сервера</h6>
+                    <input id="minecraft_techno_ip" type="text" class="validate" value="192.168.1.1">
+                    <label for="minecraft_techno_ip"></label>
+                    <h6>Алиас</h6>
+                    <input id="minecraft_techno_alias" type="text" class="validate" value="192.168.2.1">
+                    <label for="minecraft_techno_alias"></label>
+                    <a class="waves-effect waves-light btn">Steam</a>
+                </div>
                 <div class="card_img minecraft_img"><img src="css/img/cards/minecraft_vanilla_2.png"></div>
                 <div class="card_bottom">
                     <div class="card_players">7/10</div>
@@ -108,6 +119,16 @@
             <div class="server_card minecraft">
                 <div class="server_status online tooltipped" data-position="top" data-delay="50" data-tooltip="Сервер онлайн"></div>
                 <div class="card_top_line">Minecraft Hard-Techno</div>
+                <div class="play_action">
+                    <div class="close_action"><div class="X_icon">X</div></div>
+                    <h6>IP сервера</h6>
+                    <input id="minecraft_hard_techno_ip" type="text" class="validate" value="192.168.1.1">
+                    <label for="minecraft_techno_ip"></label>
+                    <h6>Алиас</h6>
+                    <input id="minecraft_hard_techno_alias" type="text" class="validate" value="192.168.2.1">
+                    <label for="minecraft_hard_techno_alias"></label>
+                    <a class="waves-effect waves-light btn">Steam</a>
+                </div>
                 <div class="card_img"><img src="css/img/cards/minecraft_techno_1.png"></div>
                 <div class="card_bottom">
                     <div class="card_players">7/10</div>
@@ -121,21 +142,22 @@
 </div>
 <div class="section white">
     <div class="row container">
-        <div class="col l12 center"><h2 class="header">Minecraft</h2></div>
-        <div class="col l7 m5 s12">
+        <div class="col l12 m12 s12 center-align"><h2 class="section_header">Minecraft</h2></div>
+        <div class="col l6 m6 s12">
+            <h4>Об игре</h4>
             <p>Minecraft (от  англ. mine «шахта», «добывать» и англ. craft «ремесло») — компьютерная инди-игра в жанре песочницы с элементами симулятора выживания и открытым миром, разработанная шведским программистом Маркусом Перссоном.</p>
             <p>Minecraft предоставляет в распоряжение игрока трёхмерный процедурно генерируемый мир, полностью состоящий из кубических блоков, и дает возможность свободно перестраивать его, создавая из блоков сложные сооружения — эта особенность игры делает Minecraft схожей с конструктором LEGO.</p>
-            <p>Игра не ставит перед игроком каких-либо однозначных целей, но предлагает ему множество возможностей и занятий: так, игрок может обследовать мир, создавать разнообразные сооружения и предметы, сражаться с различными противниками.</p>
         </div>
-        <div class="col l5 m7 hide-on-small-only">
-            <div class="slider">
-                <div class="back"></div>
-                <ul class="slides">
-                    <li class="slide current"><img class="responsive-img" src="css/img/slider/minecraft/minecraft_vanilla_1.jpg"></li>
-                    <li class="slide"><img class="responsive-img" src="css/img/slider/minecraft/minecraft_vanilla_2.jpg"></li>
-                    <li class="slide"><img class="responsive-img" src="css/img/slider/minecraft/minecraft_techno_1.jpg"></li>
-                </ul>
-                <div class="next"></div>
+        <div class="col l6 m6 s12">
+            <h4>О сервере</h4>
+            <p>Minecraft предоставляет в распоряжение игрока трёхмерный процедурно генерируемый мир, полностью состоящий из кубических блоков, и дает возможность свободно перестраивать его, создавая из блоков сложные сооружения — эта особенность игры делает Minecraft схожей с конструктором LEGO.</p>
+        </div>
+        <div class="col l12 m12 s12">
+            <div class="section_buttons">
+                <a class="waves-effect waves-light btn">Установленные моды</a>
+                <a class="waves-effect waves-light btn">Карта</a>
+                <a class="waves-effect waves-light btn">Донат</a>
+                <a class="waves-effect waves-light btn">Обсуждение</a>
             </div>
         </div>
     </div>

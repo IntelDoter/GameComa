@@ -8,7 +8,7 @@ $(document).ready(function(){
     $('.parallax').parallax();
     $('.scrollspy').scrollSpy();
 
-    /* slider */
+    /* slider
     $('.next').click(function() {
         var current = $('.current');
         var parent = current.parent();
@@ -32,7 +32,7 @@ $(document).ready(function(){
             current.removeClass('current');
             parent.children().last().addClass('current');
         }
-    });
+    });*/
 
     $(".play").click(function() {
         var elem = $(this).parent().parent().find(".play_action");
